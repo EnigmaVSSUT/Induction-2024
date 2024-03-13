@@ -53,9 +53,8 @@ Throughout the month, you all will explore the various domains and submit your t
 <hr>
 N.B.<br>
 
-__Non-Tech Induction (Graphic Designing, Video Editing, Content Writing) to start from 5th April__
 
-**Personal Interview Round to commence from 14th April**
+**Personal Interview Round to commence from 8th April**
 
 <hr>
 
