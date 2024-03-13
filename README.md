@@ -6,7 +6,7 @@
 <h1>
 <a target="_blank" href="https://enigmavssut.com/">
 
-`#57AF50` Enigma `#57AF50`web `#57AF50`and  `#57AF50`coding `#57AF50` club
+Enigma - The Web And Coding Club
 
 
 
