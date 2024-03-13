@@ -6,7 +6,7 @@
 <h1>
 <a target="_blank" href="https://enigmavssut.com/">
 
-$${ \space   \space  \color{#57AF50}Enigma \space \color{#57AF50}web  \space \color{#57AF50}and  \space \color{#57AF50}coding  \space \color{#57AF50} {club}}$$
+$${ \space   \space  \color`#57AF50`Enigma \space \color`#57AF50`web  \space \color`#57AF50`and  \space \color`#57AF50`coding  \space \color`#57AF50` {club}}$$
 
 
 
