@@ -1,4 +1,4 @@
-<img src="./assets/Banner GIF.gif">
+<img src="./assets/Banner GIF.gif" width = "1916">
 
 >### "You don't have to be great to start, but you have to start to be great." <br> -Zig Ziglar
 
