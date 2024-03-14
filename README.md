@@ -53,7 +53,7 @@ Second week will be a walk around on one of the most popular technologies of mod
 ## Week-3 (26 March - 3 April) | Python | Application Development | Web Developement(Advanced) <img src="./assets/Ai.gif" width="60">
 Fourth week is a walk through the revolutionary domain of AI/ML or App Development or Advances of Web Development with an exciting task to boost your interest and give you an overview of the field of your interest.
   <br>
-    - - [Task: Coming Soon!!]
+    - [Task: Coming Soon!!]
 
 ## Contest (31 March) | Competitive Programming <img src="./assets/maze.gif" width="30">
 Third week starts with a rigorous learning of competitive coding with some interesting modules. After that, their will be a series of tasks to test your understanding.
