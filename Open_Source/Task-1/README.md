@@ -62,4 +62,3 @@ Wait till the pull request is approved and merged to the original repository.
 
  
 <br/><br/>
-# Congrats on completing task 1 on git and GitHub! 
