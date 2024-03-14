@@ -45,7 +45,25 @@ Let's brief the 4 -week long venture. It is a well planned path for all the newb
 The first part of the induction you have to perform task on **Basics of Git & Github**. You will be provided with all sorts of materials which will be an apt way to learn from.<br>
     - [Task-1: Git Basics-I](./Open_Source/Task-1/)<br>
 <br>
+## Week-2 (27 - 3 April) | Web Development <img src="./assets/webdev.gif" width="60">
+Second week will be a walk around on one of the most popular technologies of modern world, Web Development. You will be learning the basics of web development, the languages like HTML, CSS, JavaScript and others to come on the way.<br>
+    * [Introduction & Resources](./Web%20Development)<br>
+    - [Task-1: HTML CSS](./Web%20Development/Task-1)<br>
+<br>
 
+## Week-3 (4 - 8 April) | Competitive Programming <img src="./assets/maze.gif" width="30">
+<br>
+Third week starts with a rigorous learning of competitive coding with some interesting modules. After that, their will be a series of tasks to test your understanding.
+
+Competitive Programming<br>
+    - [Task: Question Practice](./competitive%20programming)
+<br>
+## Week-4 (9 - 13 April) | Artificial Intelligence and Machine Learning <img src="./assets/Ai.gif" width="60">
+<br>
+Fourth week is a walk through the revolutionary domain of AI/ML with an exciting task to boost your interest and give you an overview of the field.
+  <br>
+    - <a href="https://github.com/EnigmaVSSUT/Induction-2023/tree/main/AI">Task: WebApp</a><br>
+<hr>
 
 ## SUBMISSION:
 Throughout the month, you all will explore the various domains and submit your tasks by pushing your assignments on Github and submitting pull-requests to this repository. Keep in mind without pull requests your task will **NOT** be considered. We'll be constantly evaluating your progress accordingly.
