@@ -69,7 +69,7 @@ Throughout the month, you all will explore the various domains and submit your t
 N.B.<br>
 
 
-**Personal Interview Round to commence from 8th April**
+**Personal Interview Round to commence from 5th April**
 
 <hr>
 
