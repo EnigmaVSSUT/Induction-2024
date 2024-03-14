@@ -60,5 +60,6 @@ Wait till the pull request is approved and merged to the original repository.
 
 ## Feel free to ask any doubts in the open source channel of our discord server
 
- 
+<hr>
+## Deadline for Task-1: 16 March
 <br/><br/>
