@@ -3,7 +3,7 @@
 In this task, you'll learn basics of git and github.
 
 ## How to get started?
-Head over to https://github.com/EnigmaVSSUT/Induction-2022 and click on the fork button. This creates a copy of this repository in your repositories so you can start working on the project without directly making changes in the owner's code.
+Head over to https://github.com/EnigmaVSSUT/Induction-2024 and click on the fork button. This creates a copy of this repository in your repositories so you can start working on the project without directly making changes in the owner's code.
 
  <br/>
  <br/>
@@ -11,7 +11,7 @@ Head over to https://github.com/EnigmaVSSUT/Induction-2022 and click on the fork
  <br/>
  <br/>
 
-Now, go to your profile and you should see Induction-2022 repository under your repositories. This is your forked repo.
+Now, go to your profile and you should see Induction-2024 repository under your repositories. This is your forked repo.
 
 ## Start working! 
 
@@ -37,11 +37,11 @@ Type the command <code>git clone <i>copied_repo_address</i></code>
 
 <li>Now create a text file named <i>your_name.txt</i> inside the <code><b>open_source/Git1</b></code> folder. Add your details like <ul><li>name</li> <li>registration number</li><li>branch</li> <li>your hobbies</li> </ul>Now save the file.
  
-For reference see the file [ravindra_nag.txt](ravindra_nag.txt) in the Git1 folder.
+For reference see the file [Kaushik_Dash.txt](/Kaushik_Dash.txt) in the Task-1 folder.
 <br/>
 <br/>
 
-<li>Close any previous gitbash windows and open a new gitbash inside the newly cloned Induction-2022 folder. Then type <code>git add .</code> . This command adds all the changes you make to a staging area. This includes changes made in existing files as well as any new files that you create. Running the git add command does not change any of your work in the Git repository. Changes are only made to your repository when you execute the git commit command. </li>
+<li>Close any previous gitbash windows and open a new gitbash inside the newly cloned Induction-2024 folder. Then type <code>git add .</code> . This command adds all the changes you make to a staging area. This includes changes made in existing files as well as any new files that you create. Running the git add command does not change any of your work in the Git repository. Changes are only made to your repository when you execute the git commit command. </li>
 <br/>
 
 <li>Now to commit these changes, type <code>git commit –m "git task 1 completed" </code> in the gitbash.  The commit message must contain useful information as to what changes you've made so that it is easier for others to understand what your code does. </li>
