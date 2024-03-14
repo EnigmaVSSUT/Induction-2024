@@ -6,8 +6,7 @@
 <h1>
 <a target="_blank" href="https://enigmavssut.com/">
 
-Enigma - The Web And Coding Club
-
+<span style="color:green">Enigma - The Web And Coding Club</span>
 
 
 </a> 
