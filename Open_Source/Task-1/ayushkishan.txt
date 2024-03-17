@@ -2,3 +2,4 @@ Name : Ayush kishan
 Regd No : 2302040005
 Branch : Computer Science And Engineering
 Hobby : I like Cubing(solving rubik's cube)
+Domain: App development and Cyber security
