@@ -1,5 +1,7 @@
 
-Name : Laeb ajamil
+Name : Laeba jamil
 Branch : Computer science and engineering
 Regd no : 2302040032
 Hobby : Reading and Baking
+primary domain : AI/ML
+secondary domain : Competitive porgramming
