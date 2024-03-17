@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+
+Name : Laeba jamil
+Branch : Computer science and engineering
+Regd no : 2302040032
+Hobby : Reading and Baking
+primary domain : AI/ML
+secondary domain : Competitive porgramming
+=======
+Name : Laeba Jamil
+Regd No: 2302040032
+Branch : Computer Science And Engineering
+Hobby : Drawing/Painting and baking
+>>>>>>> 93869caadf17a044bac8960a695b38e8fe070147
