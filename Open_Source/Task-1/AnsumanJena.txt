@@ -2,3 +2,5 @@ Name: Ansuman Jena
 Registration Number: 2302040019
 Branch: Computer Science And Engineering
 Hobbies: Cycling
+Primary Domain : AI/ML
+Secondary Domain : Competitive Programming
