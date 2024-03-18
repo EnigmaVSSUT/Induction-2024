@@ -2,3 +2,5 @@ Name : Prasanti Manjari Das
 Regd No : 2302081059
 Branch : Information Technology
 Hobby : Reading Novels,Short Stories
+Domain 1: Cyber Security
+Domain 2: Cloud Computing
