@@ -2,4 +2,5 @@ Name : Sriyasri Jena
 Regd No : 2302041054
 Branch : Computer Science and Engineering
 Hobbies : Singing
-Domain : Web Development & AIML
+Primary Domain : Web Development 
+Secondary domain : AI/ML
