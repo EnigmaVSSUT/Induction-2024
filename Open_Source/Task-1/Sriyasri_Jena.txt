@@ -3,4 +3,4 @@ Regd No : 2302041054
 Branch : Computer Science and Engineering
 Hobbies : Singing
 Primary Domain : Web Development 
-Secondary domain : AI/ML
+Secondary Domain : AI/ML
