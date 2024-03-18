@@ -1,6 +1,6 @@
-Name- Priyanshu Nayak
-Registration No.- 2302050146
-Branch- Electrical Engineering
-Hobbies- Cooking, Playing Games
-Domain 1: Web development
+Name: PRIYANSHU NAYAK
+Registration No. :2302050146
+Branch: ELECTRICAL ENGINEERING
+Hobbies: COOKING, PLAYINNG VIDEO GAMES
+Domain 1: WEB DEVELOPMENT
 Domain 2: AI/ML
