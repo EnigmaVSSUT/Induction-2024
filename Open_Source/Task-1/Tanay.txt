@@ -2,4 +2,5 @@ Name: Tanay Banerjee
 Regd no: 2302030028
 Branch: CIVIL ENGINEERING
 Hobbies: Solving puzzles , playing chess, rifle shooting
-Domain: Game Dev & Web Dev
+Domains: Primary:Game Dev
+         Secondary:Web Dev
