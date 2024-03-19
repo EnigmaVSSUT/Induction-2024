@@ -2,3 +2,4 @@ Name : Ankiti Kumar Biswal
 Regd No : 2302050142
 Branch : Electrical Engineering
 Hobby : Playing cricket and online games
+Domain : App devlopement , AI/Ml
