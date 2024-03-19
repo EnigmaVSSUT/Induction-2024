@@ -2,6 +2,4 @@ Name- Jassi Jasaswini Panda
 Registraton Number - 2302041053
 Branch- Computer Science and Engineering
 Hobby- Painting
-Domain:-
-Primary Domain- AI/ML
-Secondary Domain- Web Development
+Domain- AI/ML and Web Development
