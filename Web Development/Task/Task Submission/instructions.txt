@@ -1,0 +1,2 @@
+Inside this Task Submission folder create a folder of <your name> 
+Inside your folder add all the Assets, HTML and CSS files
