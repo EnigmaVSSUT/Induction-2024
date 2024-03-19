@@ -3,3 +3,6 @@ Regd No-2302041047
 Branch-Computer Science & Engineering
 From-Bhadrak
 Hobbies-Watching Hollywood Movies, Reading Books
+
+Primary Domain-Cloud Computing
+Secondary Domain-Web Development
