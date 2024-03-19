@@ -48,7 +48,7 @@ The first part of the induction you have to perform task on **Basics of Git & Gi
 
 ## Week-2 (18 - 25 March) | Web Development(Basic) <img src="./assets/webdev.gif" width="60">
 Second week will be a walk around on one of the most popular technologies of modern world, Web Development. You will be learning the basics of web development, the languages like HTML, CSS, JavaScript and others to come on the way.<br>
-    - [Task : HTML CSS](./Web%20Development/)<br>
+    - [Task : HTML CSS](./Web%20Development/Task/README.md)<br>
 <br>
 
 ## Week-3 (26 March - 3 April) | Python | Application Development | Web Developement(Advanced) <img src="./assets/Ai.gif" width="60">
