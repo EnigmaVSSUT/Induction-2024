@@ -1,4 +1,5 @@
 Name-chinmaya sahoo
 Branch-information technology
 regd no-2302080017
-Hobbies-Reading
+Hobbies-Reading books
+domain -web dev,competitive programing
