@@ -12,7 +12,7 @@
 </a> 
 
 </h1>
-We welcome all freshers to Induction 2023 and we hope that you all are excited and ready to learn new stuff, and eventually get inducted into the club.
+We welcome all freshers to Induction 2024 and we hope that you all are excited and ready to learn new stuff, and eventually get inducted into the club.
 
 
 
