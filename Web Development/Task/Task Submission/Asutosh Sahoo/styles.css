@@ -1,0 +1,94 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    width: 50%;
+    padding: 20px;
+}
+
+.image-content {
+    width: 50%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: ;
+}
+
+header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin: 0px;
+    padding: 50;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    transition: 1.0 ease-in;   
+}
+section:hover {
+    transform: scale(1.1);
+    font-stretch: extra-condensed;
+}
+header{
+    transition: 1.0 ease-in;  
+}
+header:hover {
+    transform: scale(1.1);
+}
+.lar_ge {
+    font-size: 25px;
+    color: white;
+}
+.scrollable {
+    width: 100%;
+    height: 1000px;
+    overflow: auto;
+}
+
+.round-img {
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    transition: transform 0.3s ease-in-out;
+}
+.round-img:hover {
+    transform: scale(1.05);
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+a {
+    color: #8ce400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #333;
+    color: rgb(37, 206, 37);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
