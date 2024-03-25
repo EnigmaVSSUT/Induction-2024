@@ -1,0 +1,6 @@
+Name : Abhijit Rath
+Regd No : 2302040035
+Branch : Computer Science And Engineering
+Hobby : reading newspapers
+Primary domain : Web development
+Secondary domain : AI/ML

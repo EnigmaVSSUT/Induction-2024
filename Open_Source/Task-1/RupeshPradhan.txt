@@ -1,0 +1,6 @@
+Name : Rupesh Pradhan
+Regd No : 2302040030
+Branch : Computer Science And Engineering
+Hobby : Playing Cricket and Reading Articles
+Primary Domain : Web development
+Secondary Domain : AI/ML
