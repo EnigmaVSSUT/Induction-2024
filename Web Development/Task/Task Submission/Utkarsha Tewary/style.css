@@ -1,21 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
-:root {
-  --body-color: rgb(250, 250, 250);
-  --color-white: rgb(255, 255, 255);
-  --third-color: rgb(192, 166, 49);
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+
 }
 
 body {
-  background: var(--body-color);
+  border:3px solid black;
+  background-color: rgb(244, 236, 226);
+  
 }
+.ppp{
+  color: black;
+  font-size: 40px;
+  font-weight: 450;
+}
+
+ 
+
 .container {
     width: 100%;
     position: relative;
@@ -45,15 +49,19 @@ body {
   }
   
   .demo-text-card span {
-    background: palevioletred;
-    color: var(--color-white);
+    
+   
     padding: 3px 8px;
     font-size: 30px;
     border-radius: 5px;
   }
+  .pp{
+    color: brown;
+  }
   
   .demo-name {
     font-size: 50px;
+    
   }
   
   .demo-image {
@@ -63,7 +71,6 @@ body {
     min-height: 80vh;
     width: 50%;
   }
-  
   .image {
     margin: auto 0;
     width: 380px;
@@ -82,9 +89,9 @@ body {
   @keyframes imgFloat {
     50% {
       transform: translateX(10px);
-      border-radius: 45% 45% 45% 45%;
+      border-radius: 45% 45% 45% 45%;}
+  
     }
-  }
   
   @media only screen and (max-width: 1024px) {
     .demo-text {
@@ -138,27 +145,16 @@ body {
   
   .contact{
     border: 2px solid black;
-    background-color: rgb(239, 237, 237);
+    background-color:rgb(249, 241, 230)
   }
-  .educontainer{
-    border: 5px solid black;
-    border-radius: 20px;
-    background-color: rgb(222, 72, 122);
-    padding :5px 5px;
-    color: aliceblue;
+  
 
 
 
-  }
-  .edubox{
-    border: 5px solid black;
-    border-radius: 20px;
-    background-color: rgb(222, 72, 122);
-    margin:5px ;
-    padding :5px 5px;
-    color: aliceblue;
-
-  }
+.head{
+  color: brown;
+  font-size: 30px;
+}
 div.educontainer:hover
 {
     border: 6px solid black ;
