@@ -10,35 +10,35 @@
 
 header{
       position: relative;
-      left: 100px;
+      left: 6.25rem;
 }
 
 .Heading-side{
-    height: 150px;
-    width: 400px;
+    height: 9.375rem;
+    width: 25rem;
 }
 
 .Heading{
     position: relative;
-    top: 5px;
+    top: 0.625rem;
 }
 
 
 .photo-1{
-    height: 250px;
-    width: 250px;
+    height: 18.75rem;
+    width: 18.75rem;
     background-size: cover;
     position: absolute;
-    left: 800px;
-    top: 5px;
-    right: 50px;
+    left: 50rem;
+    top: 0.625rem;
+    right: 3.125rem;
 }
 
 .photo{
     position: absolute;
-    left: 800px;
-    top: 275px;
-    right: 50px;
+    left: 50rem;
+    top: 20.625rem;
+    right: 3.125rem;
 }
 
 .head{
@@ -51,35 +51,37 @@ header{
 
 .Gallery{
     position: relative;
-      left: 35px;
+      left: 2.188rem;
+      top: 0.625rem;
 }
 .box-img{
     position: relative;
-    top: 10px;
+    top: 0.938rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .box{
-    height: 150px;
-    width: 150px;
+    height: 13.75rem;
+    width: 13.75rem;
     background-size: cover;
 }
 
 .details{
     position: relative;
-      left: 100px;
-      top: 15px;
-      height: 100px;
-      width: 300px;
+      left: 6.25rem;
+      top: 0.938rem;
+      height: 6.25rem;
+      width: 18.75rem;
 }
 
 .passing{
+    font-size: large; 
     position: absolute;
-    left: 830px;
-    top: 20px;
-    right: 50px;
+    left: 51.875rem;
+    top: 1.25rem;
+    right: 3.125rem;
 }
 
 caption{
@@ -88,19 +90,33 @@ caption{
       font-size: large;
 }
 
+.line{
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 1.5rem 0rem;
+}
 footer{
     position: relative;
-    top: 2px;
+    top: 0.125rem;
 }
 
 .foot-1{
     display: flex;
     justify-content: center;
     font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
 }
 
 .foot-2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.end{
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    color: #02101f;
 }
