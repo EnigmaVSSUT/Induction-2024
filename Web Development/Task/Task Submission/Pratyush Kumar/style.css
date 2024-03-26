@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  position: relative;
+}
+.navbar{
+
+  background-color: rgb(18, 172, 154);
+  height:max-content;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+}
+.kumar{
+  color: rgb(189, 14, 49);
+}
+.jump-links{
+  margin-left: 31%;
+  display: flex;
+  gap: 15px;
+  flex: 1;
+  
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.first-section{
+  display: flex;
+  height: max-content;
+  width: 100%;
+  padding: 50px;
+}
+.first-text-section{
+  width: 50%;
+}
+.first-text-section>h1{
+  font-size: 69px;
+}
+.first-text-section>h2{
+  font-size: 55px;
+  margin-bottom: 0;
+}
+.name-colour{
+  color: rgb(18, 172, 154);
+}
+.image-first-section{
+  width: 50%;
+  /* margin-left: 25%; */
+  padding: 15px;
+  text-align: center;
+  text-decoration: underline;
+
+
+}
+
+.girl-image{
+  height: 450px;
+  width: 450px;
+  border-radius: 65%;
+  border: 5px solid rgb(18, 172, 154);
+
+}
+.developer-colour{
+  color: rgb(18, 172, 154);
+  /* clear: right; */
+
+}
+.second-section-heading{
+  text-align: center;
+}
+.images{
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 25px; */
+
+}
+.images>img{
+  height: 300px;
+}
+.about-div{
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.intrests{
+  width: 50%;
+}
+.qualification{
+  width: 50%;
+
+}
+footer{
+  border-top: 3px solid black;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  /* text-decoration: none; */
+}
+
+.contact-me{
+  /* position: absolute; */
+  /* left: 42px; */
+  /* bottom: 58px; */
+  /* padding: 7px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0;
+  /* margin-left: 50px; */
+  /* gap: 5px; */
+  /* margin: 0; */
+}
+
