@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; 
+}
+html {
+    font-size: 62.5%; 
+}
+body {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+header {
+    background-color:#fff; 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+h1 {
+    margin-bottom: 5px;
+    color: #333; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:3.5em;
+}
+nav {
+    background-color: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    justify-content:space-evenly; 
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+h2 {
+    margin-bottom: 10px;
+    color:black;
+    font-size:large;
+}
+@media (max-width: 768px) {
+    section {
+        display: block; 
+    }
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.box1{
+    height: auto;
+    display:inline-flex;
+    justify-content:space-between;
+}
+span{
+    color:brown;
+}
+.photo{
+    width: 30%;
+    border-radius: 5%;
+}
+.gallery{
+    display: flex;
+    justify-content:space-between;
+}
+.fa-square-twitter{
+    font-size: 30px;
+    color: #1DA1F2;
+}
+.fa-square-instagram{
+    font-size: 30px;
+    color:#E1306C;
+}
+.fa-youtube{
+    font-size: 30px;
+    color:#FF0000;
+}
+.fa-facebook{
+    font-size: 30px;
+    color:#4267B2;
+}
+.fa-linkedin{
+    font-size: 30px;
+    color:  #004182;
+}
+p{
+    font-size: medium;
+}
+.myphoto{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+
+}
+#photo{
+    width:350px;
+    height: 350px;
+    border-radius: 10%;
+}
+.theme{
+    font-size:xx-large;
+    font-style: oblique;
+    color:brown;
+}
+.text{
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content:space-between;
+}
+@media(max-width:550px){
+    .main{
+        flex-wrap: wrap;
+    }
+}
