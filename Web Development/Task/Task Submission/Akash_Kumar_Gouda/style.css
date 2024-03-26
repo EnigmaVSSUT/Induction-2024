@@ -7,17 +7,19 @@
 
 h2 {
     font-size: 2.5rem;
+    font-family: sans-serif;
     color: rgb(226, 27, 27);
 }
 
 h3 {
     font-size: 2.1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
 }
 
 h4 {
     font-size: 1.9rem;
+    font-family: sans-serif;
     color: rgb(253, 39, 39);
 }
 
@@ -28,7 +30,7 @@ p {
 }
 
 :root {
-    --primary-color: #350c0c;
+    --primary-color: #b7ca49;
     --secondary-color: purple;
     --color3: rgb(0, 0, 0);
     --color4: blue;
@@ -40,7 +42,7 @@ hr {
 }
 
 body {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 h2,h3,h4 {
@@ -71,7 +73,7 @@ a {
     display: flex;
     align-items: center;
 }
-/* section 1  */
+
 .section1 {
     width: 100vw;
     background-color:var(--primary-color) ;
@@ -99,8 +101,6 @@ a {
     justify-content: center;
 }
 
-/* section 2  */
-
 .section2 {
     height: auto;
     width: 100vw;
@@ -123,7 +123,6 @@ a {
     transition: box-shadow 0.2s ease;
 }
 
-/* section 3  */
 
 .section3 {
     height:auto;
@@ -157,7 +156,6 @@ a {
     padding-top: 20px;
 }
 
-/* footer */
 .footer {
     width: 100vw;
     height: auto;
@@ -173,3 +171,6 @@ a {
     margin-top: 0.8rem;
 }
 
+.contact{
+    color: rgb(241, 230, 69);
+}
