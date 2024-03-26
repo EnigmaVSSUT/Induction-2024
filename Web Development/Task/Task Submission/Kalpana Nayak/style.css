@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+            
+    h2{
+    display: flex;
+    justify-content: center;
+    }
+}
+.interestandqualifications{
+    display: flex;
+    background-color: rgb(255, 228, 196);
+    h6{
+        color: rgb(255, 228, 196); 
+    }
+}
+.interest{
+   background-color: rgb(255, 228, 196);
+    h2{
+    display: flex;
+    justify-content: center; 
+    }           
+}
+.qualifications{
+    h2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    } 
+}
+.contact{
+    background-color: rgb(206, 214, 230);
+    h2,h4{
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+    }
+}
+.myphoto{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    display: flex;
+    background-color: rgb(234, 171, 104);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    h1{
+        display: flex;
+        justify-content: center;
+        color: rgb(18, 18, 135);
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    set3{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    set2{
+        display: flex;
+        justify-content: center; 
+    }
+    set1{
+        display: inline-block;
+    }
+    h6{
+        color: rgb(234, 171, 104);
+    }
+}
+.handles{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+.gallery{
+    h2{background-color: aquamarine;
+    display: flex;
+    justify-content: center;}
+}
+.images{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center; 
+}
