@@ -6,13 +6,27 @@
     <title>Portfolio</title>
     <link rel="stylesheets" href="style.css">
    <style>
+    @media only screen and(max-width: 900px) and(min-width: 600px){
+        .box1{
+            width: 100%;
+            height: 100%;
+        }
+        .images{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
     *{
         margin: 0;
         padding: 0;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-        .about{
-            
+        .about{ 
             h2{
             display: flex;
             justify-content: center;
@@ -70,14 +84,26 @@
                 justify-content: center;
                 color: rgb(18, 18, 135);
             }
-            h2{
+            i{
                 display: flex;
                 justify-content: center;
+                color: white;
+            }
+            h2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: black;
             }
             set3{
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 justify-content: flex-end;
+                about{
+                display: flex;
+                flex-direction: column;
+                }
             }
 
             set2{
@@ -104,6 +130,7 @@
         .images{
             background-color: aquamarine;
             display: flex;
+            flex-direction: row;
             justify-content: center; 
         }
         </style>
@@ -115,8 +142,6 @@
     <div class="myphoto">
     <img src="Kalpana.jpg" alt="Profile Picture" width="300px" border-radius="200px"><br>
     </div>
-    <h2><i><u>Web Developer</u></i></h2>
-    </div>
     <div class="set2">
         <span>
             <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci cum ipsum necessitatibus ipsa ex nihil placeat accusantium obcaecati voluptates.
@@ -126,7 +151,7 @@
     <div class="set3">
         <h1>Hellooo! I'm</h1><br>
         <span>
-            <h2><i><u>Kalpana Nayak</u></i></h2></span>
+            <h2><i>Kalpana Nayak</i></h2></span>
             <br>
     <div class="about">
     <h2>About me!</h2>
@@ -142,15 +167,15 @@
         <h2>My Gallery!</h2>
         <div class="images">
         <img src="displayprofile.webp" alt="Profile Picture" width="200px" border-radius="100px">
-        <img src="displayprofile.webp" alt="Profile Picture" width="200px" border-radius="100px">
-        <img src="displayprofile.webp" alt="Profile Picture" width="200px" border-radius="100px">
+        <!-- <img src="displayprofile.webp" alt="Profile Picture" width="200px" border-radius="100px">
+        <img src="displayprofile.webp" alt="Profile Picture" width="200px" border-radius="100px"> -->
         <img src="displayprofile.webp" alt="Profile Picture" width="200px" border-radius="100px"></div>
     </section>
 
     <section class="interestandqualifications">
         <div class="interest">
         <h2>My Interest!</h2>
-        <p>1. Playing Badmiton<br>2. Listening to Music<br>
+        <p>1. Playing Badminton<br>2. Listening to Music<br>
         3. Buiding new things<br>
     4. Solving puzzles<br></p></div>
 <div class="middle">
