@@ -2,13 +2,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  max-height: 900px;
+  box-sizing: content-box;
   font-family: "Poppins", sans-serif;
 
 }
 
 body {
-  border:3px solid black;
+  
   background-color: rgb(244, 236, 226);
   
 }
@@ -17,6 +18,26 @@ body {
   font-size: 40px;
   font-weight: 450;
 }
+.pp3{
+  font-size: 40px;
+  color: brown;
+}
+.ct{
+  font-size: 40px;
+  color: brown;
+
+}
+img{
+  width: 150px;
+  height:150 px;
+}
+ul{
+  display:flex;
+  flex-direction: row;
+  padding:40px 40px;
+  justify-content: space-between;
+}
+
 
  
 
@@ -143,10 +164,7 @@ body {
     }
 }
   
-  .contact{
-    border: 2px solid black;
-    background-color:rgb(249, 241, 230)
-  }
+  
   
 
 
