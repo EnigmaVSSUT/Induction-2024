@@ -31,24 +31,6 @@ html {
 }
 
 
-.image{
-  align-items: flex-end;
-  
-  border-radius: 50%;
-  height:100%;
-  width: 50%;
-  
-
-  
-
-}
-
-
-
-
-
-
-
 
 @media (max-width: 75em) {
   html {
