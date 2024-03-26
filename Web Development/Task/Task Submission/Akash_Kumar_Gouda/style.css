@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: rgb(226, 27, 27);
+}
+
+h3 {
+    font-size: 2.1rem;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+h4 {
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    color: rgb(253, 39, 39);
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: sans-serif;
+}
+
+:root {
+    --primary-color: #b7ca49;
+    --secondary-color: purple;
+    --color3: rgb(0, 0, 0);
+    --color4: blue;
+    --padding-inline: 40px;
+}
+
+hr {
+    border: 3px solid #605e5e;
+}
+
+body {
+    color: rgb(0, 0, 0);
+}
+
+h2,h3,h4 {
+    line-height: 2.7rem;
+}
+
+ul {
+    justify-content: space-around;
+}
+
+ul > li {
+    list-style: none;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color4);
+}
+
+.container{
+    padding: 20px var(--padding-inline);
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.section1 {
+    width: 100vw;
+    background-color:var(--primary-color) ;
+}
+
+.section1-container {
+    justify-content: space-around;
+}
+
+.left {
+    width: 48%;
+}
+
+.left > h3 {
+    font-family: sans-serif;
+}
+
+.profile-photo > img {
+    width: 250px;
+    border-radius: 125px;
+    transition: box-shadow 0.2s ease;
+}
+.right {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section2 {
+    height: auto;
+    width: 100vw;
+    background-color: var(--primary-color);
+}
+
+.section2-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gallery-text {
+    text-align: center;
+}
+
+.photo-gallery > img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    transition: box-shadow 0.2s ease;
+}
+
+
+.section3 {
+    height:auto;
+    width: 100vw;
+    background-color: var(--primary-color);
+}
+
+.section3-container {
+    justify-content: space-around;
+}
+
+.interest {
+    width: 48%;
+}
+
+.education {
+    border-spacing: 13px;
+    font-size: 1.5rem;
+}
+
+.year {
+    font-weight: 600;
+}
+
+.interest,.qualification {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.gallery-text {
+    padding-top: 20px;
+}
+
+.footer {
+    width: 100vw;
+    height: auto;
+    background-color: var(--primary-color);
+}
+
+.footer > h3 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer-container {
+    margin-top: 0.8rem;
+}
+
+.contact{
+    color: rgb(241, 230, 69);
+}
