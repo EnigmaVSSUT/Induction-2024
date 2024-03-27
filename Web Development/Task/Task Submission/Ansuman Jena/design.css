@@ -1,0 +1,167 @@
+body{
+    background-color:burlywood;
+}
+#name p{
+    position:relative;
+    left: 51px;
+    color:crimson;
+    font-family: fantasy;
+    font-size: 31px;
+    padding:0px;
+    margin: 3px;
+}
+#name h1{
+    position:relative;
+    left:51px;
+    color:blueviolet;
+    font-style: oblique;
+    font-family: 'Gill Sans';
+    font-size: 51px;
+    padding:0px;
+    margin: 3px;
+}
+#intro p{
+    position:relative;
+    left:51px;
+    height: 221px;
+    width:391px;
+    position: left;
+    font-family: 'Cambria';
+    font-size:20px;
+    font-style:inherit;
+    color:rgb(9, 36, 212);
+    padding: 3px;
+}
+#intro h2{
+    position:relative;
+    left:51px;
+    color:brown;
+    font-size: 29px;
+    text-decoration: underline;
+}
+#dp{
+    padding: 0px;
+    margin: 0px;
+    border:3px;
+}
+#text{
+    position: absolute;
+    top:390px;
+    left:1011px;
+    color:red;
+    font-size: 29px;
+    font-family:"Franklin Gothic Medium";
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+#file{
+    position:absolute;
+    left:500px;
+    top:459px;
+    color:magenta;
+    font-family:'Frankln Gothic Medium';
+    font-weight: 700;
+    font-style: oblique;
+    font-size:41px;
+}
+#p1{
+    height:271px;
+    width:261px;
+    position:absolute;
+    left:91px;
+    top:521px;
+}
+#p2{
+    height:271px;
+    width:261px;
+    position:absolute;
+    left:511px; 
+    top:521px;
+}
+#p3{
+    height:271px;
+    width:261px;
+    position:absolute;
+    left:911px; 
+    top:521px;
+}
+#interest h2{
+    position:absolute;
+    left:230px;
+    top:820px;
+    font-family: Impact;
+    color:chocolate;
+    font-size: 31px;
+    font-weight: 400;
+    font-style: oblique;
+}
+#interest p{
+    position:absolute;
+    left:100px;
+    top:870px;
+    font-family:Georgia;
+    color:blueviolet;
+    font-size: 20px;
+    height:221px;
+    width:391px;
+}
+#study h2{
+    position:absolute;
+    left:900px;
+    top:820px;
+    color:brown;
+    font-family: 'Times New Roman';
+    font-weight: 300;
+    font-style: initial;
+    font-size:31px;
+    text-decoration:underline;
+}
+#details {
+    position:absolute;
+    left:880px;
+    top:900px;
+    width:20%;
+    border: 1px solid;
+    background-color: azure;
+    font-size: 21px;
+    font-family: 'Gill Sans';
+    color:blue;
+}
+#details tr{
+    height: 50px;
+}
+hr{
+    position:absolute;
+    top:1100px;
+    border: 3px solid red;
+    width:100%;
+}
+#con h2{
+    position:absolute;
+    left:550px;
+    top:1120px;
+    color:darkcyan;
+    font-size: 39px;
+}
+#c1{
+    position: absolute;
+    color:chocolate;
+    top:1220px;
+    left:120px;
+    font-size: 29px;
+}
+#c2{
+    position: absolute;
+    color:chocolate;
+    top:1220px;
+    left:520px;
+    font-size: 29px;
+}
+#c3{
+    position: absolute;
+    color:chocolate;
+    top:1220px;
+    left:900px;
+    font-size: 29px;
+}
