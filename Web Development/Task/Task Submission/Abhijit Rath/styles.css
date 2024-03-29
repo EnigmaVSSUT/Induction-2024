@@ -1,0 +1,149 @@
+#logo{
+    display: flex;
+    /* here for hoorizontal ases */
+    align-items: center;
+    background-color: rgb(192, 208, 208);
+    opacity: 0.89;
+    padding-left: 3px;
+}
+#logo img{
+    align-items: center;
+    margin: 10px;
+}
+.item{
+    align-items: center;
+}
+#navbar{
+    position: relative;
+    /* top: 50px; */
+}
+ul{
+    display: flex;
+    /* text-decoration: none; */
+}
+#navbar ul li{
+    list-style:none;
+    margin: 10px;
+    /* text-decoration: none; */
+    font-size: smaller;
+    /* size of list */
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+  background-color:red;
+ border-radius: 30px;
+
+}
+/* home section  */
+#home h2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 500px;
+    color:red;
+
+}
+#home p{
+    margin: 50px 50px 50px;
+    font-size: 2em;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* em meaning how much the parent size is that time more  */
+    color: aqua;
+    animation-name: abhijit;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+@keyframes abhijit{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+        
+    }
+}
+
+    
+
+#home::before{
+    content: "";
+    position: absolute;
+    background : url('../book2.png');
+    /* font-size: 100rem; */
+    padding-right: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+    border-left: 100px;
+    /* padding-left: 400px; */
+    /* position:relative; */
+    /* right: 20px; */
+    /* background-repeat: no-repeat; */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: .89; */
+    /* align-items: center; */
+    /* margin-left: 200px; */
+    margin-right: 30px;
+
+}
+.same{
+    display: flex;
+}
+.photo img{
+    width: 250px;
+    display: inline;
+    position: relative;
+    top: 380px;
+    height: 250px;
+}
+.photo3 img{
+    width: 250px;
+    /* right: auto;
+     */
+     float: right;
+     /* float: left; */
+     width: 30%;
+     margin: 30px;
+     position: relative;
+     bottom: 50px;
+     top: 380px;
+     left: 570px;
+
+}
+.xyz{
+    position: relative;
+    left: 270px;
+    /* bottom: 10px; */
+    font-size :2em;
+    color: rgb(145, 212, 154);
+}
+.xyz p{
+    position: relative;
+    top: 20px;
+    animation-name: rath;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+@keyframes rath{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+        
+    }
+
+}
+.lists{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
