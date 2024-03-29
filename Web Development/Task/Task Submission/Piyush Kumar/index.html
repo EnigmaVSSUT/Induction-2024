@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+    background-color: #141414;
+  }
+  *{
+    color : white
+
+  }
+  
+  #circle {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #efc64a;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    transition: all;
+    transition-duration: 3000;
+    transition-timing-function: ease-out;
+  }
+
+  .showcase{
+    animation: showcaseani 3s infinite linear;
+  }
+  
+  @keyframes showcaseani {
+    0%{
+      transform: translateX(-180px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+  
+  .spel {
+    
+    transform: translate(-42vw ,0%);
+    transform-origin: center center ;
+  }
+  
+  .spelc{
+    top: 50%;
+    left:50%;
+    transform: translate(-6rem,-6rem);
+  
+  }
+  .center{
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%) !important;
+  }
+    </style>
+    
+</head>
+<body>
+    <div id="circle"></div>
+    <div id="root">
+      <nav class="w-screen fixed bottom-8 z-50 ">
+        <div class="w-fit mx-auto bg-black rounded-full bg-opacity-45  py-4 px-10 flex gap-5 text-xl">
+          <a href="">Home</a>
+          <a href="">Works</a>
+          <a href="">Skills</a>
+          <!-- <a href="">Experience</a> -->
+          <a href="">Resume</a>
+          <a href="">Contact</a>
+        </div>
+      </nav>
+      <section class="bg-gray-70 h-screen relative w-screen ">
+        <header class="flex gap-8 items-center my-10 px-20">
+          <div></div>
+          <div class="ml-auto">Burla , WA 7:34 PM IST</div>
+          <div class="flex items-center gap-2 outline outline-[0.5px] w-fit px-4 py-2 rounded-full ">
+            <div class="relative">
+              <div class="bg-green-400 h-2 w-2 rounded-full "></div>
+              <div></div>
+            </div>
+            <div class="uppercase">open to work</div>
+          </div>
+        </header>
+        <div class="fixed h-screen w-screen -z-30 -top-10">
+          <div class="relative scale-100 center shrink-0 hero">
+            <div class="text-9xl font-semibold text-center py-20">
+              <div class="flex justify-center items-end gap-4">
+                I'm Piyush
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/5c5da592a9ab9540371bec64/1577650055324-W31WDV3JYGX453Z2KUZ5/DSC00274.jpg?format=2500w"
+                  alt=""
+                  class="h-24 w-56 object-cover rounded-full "
+                />
+              </div>
+              Creative Fullstack <br />
+              Developer.
+            </div>
+            <div class="text-center text-3xl font-light pb-20">
+              I develop accessible, responsive, interactive, and animated <br />
+              websites with a strong focus on performance.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-gray-700 rounded-t-2xl flex flex-col overflow-x-auto">
+        <div class="flex h-16 items-center gap-8 relative showcase">
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+          <img
+            class="h-5 invert opacity-25"
+            src="https://cdn-icons-png.flaticon.com/64/2280/2280787.png"
+            alt=""
+          />
+          <div class="text-lg uppercase opacity-25 font-light">
+            showcase
+          </div>
+        </div>
+        <div class="flex h-screen ">
+          <div class="h-full max-w-[40rem] w-96 mx-16 pt-20 pb-40 flex flex-col">
+            <div class="text-7xl pb-8">
+              Selected <br /> Works
+            </div>
+            <div class="text-xl font-extralight">
+              I've played a key role in developing impactful projects. Here's a
+              curated selection showcasing my expertise and the achieved
+              results.
+            </div>
+            <button class="mt-auto bg-yellow-300 w-fit px-6 py-2 rounded-full text-lg text-black">
+              <a href="https://www.linkedin.com/in/piyush-cv/">
+                Contact
+              </a>
+            </button>
+          </div>
+          <a href="https://ycourses.netlify.app/">
+          <div class="group h-full max-w-[40rem] w-[30rem] mx-16 pt-20 pb-40 flex flex-col flex-shrink-0 " >
+            <div class="bg-orange-300 w-full h-full rounded-2xl px-6 overflow-hidden">
+              <div class="flex my-10 ">
+                <div>
+                  <div class="text-black text-3xl ">YCourses</div>
+                  <div class="text-black opacity-0 group-hover:opacity-100">
+                    2023
+                  </div>
+                </div>
+                <div class="flex items-center gap-2 ml-auto">
+                  <div class="text-black text-xl font-light">Visit</div>
+                  <div class=" h-6 w-6 rounded-full bg-black flex">
+                    <img
+                      class="h-4 -rotate-45 invert m-auto"
+                      src="https://cdn-icons-png.flaticon.com/64/545/545682.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-8">
+                <img class="rounded-lg" src="https://res.cloudinary.com/duaqymyfy/image/upload/f_auto,q_auto/cbuapi9rvslmog3o93ly" alt="" />
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+      </section>
+      <section class="min-h-screen w-screen px-20 py-20 flex flex-col bg-stone-900">
+        <div class="flex">
+          <div class="w-80">
+            <div class="text-7xl mt-10">
+              Let's <br />
+              Connect.
+            </div>
+            <div class="my-10">mr.piyush.cv@gmail.com</div>
+            <div class="flex justify-between">
+              <a href="https://twitter.com/Piyush_cv">
+                <img
+                class="h-5 invert "
+                src="https://cdn-icons-png.flaticon.com/64/5968/5968830.png"
+                alt=""
+              />
+              </a>
+              <a href="https://www.instagram.com/piyush.cv/">
+                <img
+                class="h-5 invert "
+                src=" https://cdn-icons-png.flaticon.com/64/717/717392.png"
+                alt=""
+              />
+              </a>
+              <a href="https://www.linkedin.com/in/piyush-cv/">
+                <img
+                class="h-5 invert "
+                src="https://cdn-icons-png.flaticon.com/64/3128/3128219.png"
+                alt=""
+              />
+              </a>
+              <a href="https://github.com/piyush-bit">
+                <img
+                class="h-5 invert "
+                src="https://cdn-icons-png.flaticon.com/512/2111/2111425.png"
+                alt=""
+              />
+              </a>
+              <a href="">
+                <img
+                class="h-5 invert "
+                src="https://cdn-icons-png.flaticon.com/512/10478/10478244.png"
+                alt=""
+              />
+              </a>
+            </div>
+          </div>
+          <div></div>
+        </div>
+        <div class="text-center mt-auto">© 2024 Piyush Kumar</div>
+      </section>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const circle = document.getElementById('circle');
+  
+        document.addEventListener('mousemove', function (e) {
+          // Set the circle's position to the cursor coordinates
+          const x = e.clientX - circle.clientWidth / 2;
+          const y = e.clientY - circle.clientHeight / 2;
+          circle.style.transform = `translate(${x}px, ${y}px)`;
+        });
+      });
+    </script>
+</body>
+</html>
