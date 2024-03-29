@@ -438,19 +438,69 @@ footer i{
     font-weight: 300;
 }
 
-@media (min-width:100px) and (max-width:1200px)
+@media (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px)
  {
     .container
     {
         position:absolute;
         top:90px;
-        left:100px;
+        right:5px;
+        
+        width:100%;
+        
     }
     .small{
 
         position:absolute;
         top:20px;
+        left:10px;
+        width:100%;
+    }
+    .interest
+    {
+        flex-wrap:nowrap;
+        display: block;
+    }
+    .box
+    {
+        display: relative;
+        left:30px;
+    }
+    .main2
+    {
+       position: absolute;
+       top:900px;
+       left:10px;
+        height:2280px;
+        width:100%;
+        background-color: white;
+        border-radius: 18px;
+       
+    }
+    .qua
+    {
+        position: relative;
         left:120px;
     }
+    .spy span
+    {
+        font-size: 7px;
+        font-weight: 800;
+    }
+    .qua1 span
+    {
+        font-size: 7px;
+        font-weight: 800;
+    }
+   .title
+   {
+    position: relative;
+    left:10px;
+   }
+   .box span
+   {
+    font-size: 9px;
+        font-weight: 800;
+   }
 }
 
