@@ -1,14 +1,28 @@
 body{
     background-color:white;
 }
+
+
+
+#name{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ #name img{
+    width: 400px;
+    height: 400px;
+ }
+
+
 #name p{
-    position:relative;
-    left: 51px;
-    color: pink;
+   
+    
+    color: rgb(226, 17, 52);
     font-family: fantasy;
     font-size: 31px;
-    padding:0px;
-    margin: 3px;
+    
 }
 #name h1{
     position:relative;
@@ -21,7 +35,7 @@ body{
     margin: 3px;
 }
 #intro p{
-    position:relative;
+    
     left:51px;
     height: 221px;
     width:391px;
@@ -29,7 +43,7 @@ body{
     font-family: 'Cambria';
     font-size:20px;
     font-style:inherit;
-    color:blanchedalmond;
+    color:rgb(205, 90, 18);
     padding: 3px;
 }
 #intro h2{
@@ -39,57 +53,16 @@ body{
     font-size: 29px;
     text-decoration: underline;
 }
-#dp{
-    padding: 0px;
-    margin: 0px;
-    border:3px;
-}
-#text{
-    position: absolute;
-    top:390px;
-    left:1011px;
-    color:green;
-    font-size: 40px;
-    font-family:"Franklin Gothic Medium";
-    font-style: italic;
-    padding: 0px;
-    margin: 0px;
-}
-#file{
-    position:absolute;
-    left:500px;
-    top:459px;
-    color:skyblue;
-    font-family:'Frankln Gothic Medium';
-    font-weight: 700;
-    font-style: oblique;
-    font-size:41px;
-}
-#p1{
-    height:271px;
-    width:261px;
-    position:absolute;
-    left:91px;
-    top:521px;
-}
-#p2{
-    height:271px;
-    width:261px;
-    position:absolute;
-    left:91px; 
-    top:521px;
-}
-#p3{
-    height:271px;
-    width:261px;
-    position:absolute;
-    left:91px; 
-    top:521px;
+
+
+#interest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 #interest h2{
-    position:absolute;
-    left:230px;
-    top:800px;
+ 
+   
     font-family: Impact;
     color: black;
     font-size: 31px;
@@ -97,59 +70,76 @@ body{
     font-style: oblique;
 }
 #interest p{
-    position:absolute;
-    left:100px;
-    top:850px;
+   
     font-family:Georgia;
     color:purple;
     font-size: 20px;
-    height:221px;
+   
     width:391px;
-}#study h2{
-    position:absolute;
-    left:900px;
-    top:820px;
-    color:indianred;
-    font-family: 'Times New Roman';
-    font-weight: 300;
-    font-style: initial;
-    font-size:31px;
-    text-decoration:underline;
-}#details {
-    position:absolute;
-    left:880px;
-    top:900px;
-    width:20%;
-    border: 1px solid;
-    background-color: blue;
-    font-size: 21px;
-    font-family: 'Gill Sans';
-    color:crimson;
-}#con h2{
-    position:absolute;
-    left:550px;
-    top:1120px;
-    color:mediumvioletred;
-    font-size: 39px;
 }
-#c1{
-    position: absolute;
-    color:burlywood;
-    top:1220px;
-    left:520px;
-    font-size: 29px;
+
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-#c2{
-    position: absolute;
-    color:lightseagreen;
-    top:1120px;
-    left:520px;
-    font-size: 29px;
+#flex-container img{
+    max-width: 300px;
+    max-height: 350px;
 }
-#c3{
-    position: absolute;
-    color:whitesmoke;
-    top:1120px;
-    left:520px;
-    font-size: 29px;
+
+
+
+#intro span{
+    font-size: 45px;
+ 
+    color:rgb(215, 85, 15)
+}
+
+
+h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    color: brown;
+}
+#contact {
+    
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 20, 20);
+}
+
+#contact-bar {
+    font-size: 20px;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+
+
+@media screen and (max-width:800px) {
+    #flex-container{
+      
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #flex-container img{
+        margin-top: 5%;
+        margin-left: 20%;
+        
+    }
+    #interest{
+        flex-direction: column;
+    }
+
+    #name {
+        flex-direction: column;
+    }
+    #name img {
+        width:350px;
+      
+        margin-left: 5%;
+    }
+    
 }
