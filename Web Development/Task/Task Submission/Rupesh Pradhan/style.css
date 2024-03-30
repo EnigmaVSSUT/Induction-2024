@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 47px 0;
+}
+
+.leftsection {
+    width: 30%;
+    font-size: 1.8rem;
+
+}
+
+
+.about {
+    font-size: 1.5rem;
+}
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.rightsection p {
+    font-size: 2rem;
+    margin-left: 188px;
+    line-height: 2.4rem;
+    margin-top: 7px;
+}
+
+main b {
+    color: rgb(170, 152, 81);
+}
+
+.gall {
+    color: rgb(170, 152, 81);
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.secondsection {
+
+    display: flex;
+    justify-content: space-around;
+    max-width: 80vw;
+    margin: auto;
+
+
+}
+
+.secondsection img {
+    width: 80%;
+    height: 90%;
+
+}
+
+.thirdsection {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.section1 {
+    width: 35%;
+    font-size: 1.5rem;
+
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.sec2diff {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    line-height: 4rem;
+    font-size: 2rem;
+    margin: 22px 0;
+}
+
+.section2 {
+    margin: 0 20px;
+}
+
+.section2 b {
+    font-size: 1.5rem;
+}
+
+.column1 {
+    font-weight: bold;
+}
+
+.column2 {
+    text-align: right;
+}
+
+section hr {
+    border: 0;
+    height: 4px;
+    background: black;
+    margin: 21px 130px;
+
+}
+
+p.contact {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 11px 113px;
+    height: 101px;
+    font-size: 1.2rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .firstsection {
+        flex-direction: column;
+        font-size: 44px;
+    }
+
+    .leftsection {
+        width: 194%;
+        margin-left: 16px;
+        font-size: 62px;
+    }
+
+    .about {
+        font-size: 34px;
+    }
+
+    .rightsection img {
+        width: 127%;
+        margin: 36px 118px;
+    }
+   
+  
+
+
+}
