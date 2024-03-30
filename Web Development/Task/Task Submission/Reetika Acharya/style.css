@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-color: #f5deb3;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .container {
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    margin: 4%;
+    padding: 20px;
+  }
+  .myself,
+  .hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw;
+  }
+  
+  .myself img,
+  .hobbies img {
+    height: 300px;
+    width: 300px;
+  }
+  h1 {
+    text-align: center;
+    padding: 3px 3px;
+    font-size: 15px;
+    margin-top: 5vh;
+  }
+  h2 {
+    margin: 15vh;
+    font-size: 20px;
+  }
+  span {
+    font-size: 15px;
+    margin-left: 20px;
+    color: blue;
+    margin-top: -8%;
+    width: 60%;
+  }
+  
+  h4 {
+    text-align: center;
+    font-size: 25px;
+    margin: 9vh;
+  }
+  
+  h5 {
+    text-align: center;
+    font-size: 15px;
+    margin: 6vh;
+    color: black;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .links a {
+    margin: 5vw;
+  }
+  a img {
+    height: 100px;
+    width: 100px;
+  }
+  .imgs {
+    margin: 2vw;
+  
+    padding: 10px;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  .imgs img {
+    height: 50vh;
+    padding: 2%;
+  }
+  
+  @media screen and (max-width: 968px) {
+    a img,
+    .myself img,
+    .hobbies img {
+      width: 50%;
+      height: 50%;
+    }
+  
+    .imgs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .imgs img {
+      height: 35vh;
+    }
+  }
+  
+  @media screen and (max-width: 672px) {
+    a img,
+    .myself img,
+    .hobbies img {
+      width: 50%;
+      height: 50%;
+    }
+  
+    .imgs {
+      margin: 7%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .imgs img {
+      width: 45vw;
+      height: auto;
+    }
+    body {
+      margin-left: 10px;
+    }
+  }
+  @media screen and (max-width: 370px) {
+    .imgs img {
+      height: 25vh;
+    }
+  }
+  @media screen and (max-width: 262px) {
+    .imgs img {
+      height: 20vh;
+    }
+  }
