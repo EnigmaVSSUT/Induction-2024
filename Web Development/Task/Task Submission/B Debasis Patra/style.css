@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(143, 245, 34);
+    margin: 20;
+    padding: 0;
+}
+ header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ #Name {
+    font-size:40px;
+    font-weight: 800;
+    font-style: italic bold;
+    text-align:left;
+    color: rgb(77, 9, 97);
+}
+ header img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+ }
+ h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic bold;
+    flex-direction: row;
+    color:rgb(77, 9, 97) ;
+ }
+
+#About {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic bold;
+    text-align: left;
+}
+
+.images img {
+        width: 450px;
+        height: 300px;
+        border-radius: 5%;
+        position: relative;
+        background-size:cover;
+}
+
+#gallery {
+    text-align: center;
+    color:  rgb(77, 9, 97);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#interest-heading {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(77, 9, 97);
+}
+
+#interests {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic bold;
+}
+
+#qualifications {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(77, 9, 97);
+}
+
+table {
+    font-size: 30px;
+    font-family: Calibri;
+    font-weight: 500;
+    color: rgb(12, 12, 12);
+}
+
+.ali {
+    text-align: center;
+}
+
+#contact {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(77, 9, 97);
+    font-weight: 700;
+    font-style: bold;
+}
+
+#info {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
