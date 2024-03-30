@@ -1,0 +1,29 @@
+*{
+    background-color: bisque;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(246, 255, 0);
+}
+.tab{
+    width: 200px;
+    margin: 10px;
+}
+#hob{
+    height: 100px;
+    width: 500px;
+    margin: 10px;
+}
+#intro{
+    width: 300px;
+}
+.img{
+    width: 700px;
+}
+header{
+    display: inline;
+}
