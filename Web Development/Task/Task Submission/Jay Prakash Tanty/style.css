@@ -1,0 +1,174 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: linear-gradient(orange,blue,red);
+    background-image: linear-gradient(orange,blue,orange);
+}
+#my-first-first-section{
+    max-width: 1200px;
+    padding: 30px;
+    margin:auto;
+
+}
+.my-first-section{
+    display:flex;
+    justify-content: space-between;
+}
+.about-me-title{
+    font-size: 35px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.aboutme{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+.my-fisrt-section-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-right: 40px;
+}
+.hello{ 
+    font-size:50px;
+    color: white;
+}
+.name{
+    font-size:51px;
+    font-family: Sofia;
+}
+#gallery{
+    max-width: 1200p                                                                                                                                                                                                                                                                                                                                                                                        x;
+    padding: 16px;
+    margin:auto; 
+    }
+.three-gallery-images{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap:wrap;
+}
+.gallerypic1{
+    width: 350px;
+
+}
+.gallerypic1 img{
+    max-width:100%;
+}
+
+.gallery-title h1{
+    font-size: 50px;
+    text-align:center;
+}
+#inter-and-qual .inter-and-qual-container{
+    display:flex;
+
+}
+.fro_tel{
+    font-size:40px;
+    color:gold;
+}
+.tel_fro{
+    font-size:30px;
+}
+.inter{
+    margin-right:90px;
+}
+.inter h2{
+    font-size: 40px;
+    text-align:left;
+}
+.inter p{
+    font-size: 25px;
+    font-family: Audiowide;
+
+}
+.qual h3{
+    font-size: 40px;
+    text-align:right;
+}
+.qual p{
+    font-size: 25px;
+}
+#inter-and-qual{
+    max-width: 1200px;
+    padding: 30px;
+    margin:auto;
+
+}
+.myname{
+    max-width: 1200px;
+    padding: 10px;
+    margin:auto
+}
+.contact-me-title{
+    text-align:center;
+    margin-top: 15px;
+}
+.myname{
+    font-size:25px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.contact-links{
+    justify-content: center;
+    display:flex;
+    justify-content: center;
+}
+.my-only-image img{
+    width:350px;
+
+}
+@media only screen and (max-width: 912px) and (min-width:1px)
+{
+    .my-first-section{
+        flex-direction: column;
+        text-align:center;  
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+    .my-fisrt-section-text{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .est_img{
+        margin-top: 20px;
+        width: 450px;
+    }
+    #inter-and-qual .inter-and-qual-container{
+        display:flex;
+        flex-direction: column;
+        margin: 0px;
+        text-align:center;  
+    }
+    .inter{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .qual h3{
+        margin-top:30px;
+            
+    }
+    .inter h2{
+        text-align:center;  
+        justify-content: center;
+    }
+    .qual h3{
+        text-align:center;  
+        justify-content: center;
+    }
+
+    
+
+}
