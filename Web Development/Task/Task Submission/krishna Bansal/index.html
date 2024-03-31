@@ -11,6 +11,11 @@
     <div class="top-bar">
         <div class="container">
             <h1 class="logo">My Portfolio</h1>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
             <ul class="navigation">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -120,6 +125,14 @@
         profilePhoto.addEventListener('mouseout', () => {
             profilePhoto.style.transform = 'scale(1)';
         });
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navigation = document.querySelector('.navigation');
+
+            menuToggle.classList.toggle('open');
+            navigation.classList.toggle('open');
+        }
     </script>
 </body>
 </html>
