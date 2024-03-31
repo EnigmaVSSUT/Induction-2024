@@ -35,11 +35,10 @@ body {
 
 .top-bar .container .navigation {
     list-style-type: none;
-    display: flex; /* Added */
+    display: flex;
 }
 
 .top-bar .container .navigation li {
-    /* display: inline; */ /* Removed */
     margin-right: 20px;
 }
 
@@ -54,18 +53,17 @@ body {
     color: #f39c12;
 }
 
-/* Hamburger Menu Styles */
 .menu-toggle {
     display: none;
     cursor: pointer;
-    margin-right: 20px; /* Added */
+    margin-right: 20px;
 }
 
 .menu-toggle .bar {
     width: 25px;
     height: 3px;
     background-color: #fff;
-    margin: 5px auto; /* Center bars */
+    margin: 5px auto;
     transition: transform 0.3s ease;
 }
 
@@ -221,7 +219,6 @@ footer {
     margin-bottom: 5px;
 }
 
-/* Media query for tablets and below */
 @media (max-width: 768px) {
     .top-bar .container {
         flex-direction: column;
@@ -229,7 +226,7 @@ footer {
     }
 
     .top-bar .container .navigation {
-        display: none; /* Hide regular navigation */
+        display: none;
     }
 
     .top-bar .container .navigation.open {
@@ -239,50 +236,48 @@ footer {
     }
 
     .top-bar .container .navigation li {
-        display: block; /* Stack navigation items vertically */
-        margin-right: 0; /* Remove horizontal margin */
-        margin-bottom: 10px; /* Add some space between items */
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     .menu-toggle {
-        display: block; /* Show hamburger menu */
+        display: block;
     }
 
     .about-content {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column;
     }
 
     .profile-image {
-        margin: 0 auto 20px; /* Center the image and add margin below */
+        margin: 0 auto 20px;
         display: flex;
         justify-content: center;
     }
 
     .profile-image img {
-        width: 150px; /* Adjust image size */
+        width: 150px;
     }
 
     .profile-details {
-        text-align: center; /* Center text for readability */
+        text-align: center;
     }
 }
 
-/* Media query for mobile devices */
 @media (max-width: 480px) {
     .container {
-        width: 95%; /* Increase container width for small screens */
+        width: 95%;
     }
 
     .top-bar .container .logo, .top-bar .container .navigation li a {
-        font-size: 20px; /* Adjust font size for smaller screens */
+        font-size: 20px;
     }
 
     .top-bar .container .navigation li a {
-        font-size: 12px; /* Smaller font size for nav items */
+        font-size: 12px;
     }
 
     .profile-details h3 {
-        font-size: 20px; /* Smaller font size for titles */
+        font-size: 20px;
     }
 }
-
