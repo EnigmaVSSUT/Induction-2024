@@ -15,41 +15,51 @@ body{
 }
 
 #container1{
-/* background-color: blue; */
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
 
-padding-right: 50px;
+display: flex;
+flex-wrap: wrap-reverse;
+justify-content: space-around;
+align-content: center;
+flex-direction: row-reverse;
+
 }
 
 #aboutme{
-/* background-color: pink; */
+
 display: inline-block;
 width: 700px;
-padding-left: 20px;
+
+flex-grow: 0.5;
+
 }
 .ab1{
-
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 #image{
     display: inline-block;
     border-radius: 30px;
-    /* background-color: red; */
 
+
+    
 
 }
 
 #biswa{
     width: 300px;
     border-radius: 30px;
+    border: 2px solid black;
+    
 }
 
 #container2{
     
-    /* background-color: aqua; */
+   
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -61,21 +71,55 @@ padding-left: 20px;
     padding-top: 85px;
     
 }
+
+#c11{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 25px 5px 25px;
+    font-size: 40px;
+    display: inline-block;
+}
+
 .gallery{
     display: inline-block;
 }
 .g1{
-    width: 500px;
+    width: 450px;
     border-radius: 20px;
 }
+@media(max-width:511px){
+    .g1{
+        width: 300px;
+    }
+}
+#bottom{
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+
 
 
 #b1{
+ 
+    
+    display: inline-block;
+    flex-grow: 1;
     text-align: center;
-    font-size: 25px;
+
 }
 
 #b2{
+ 
+    display: inline-block;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-grow: 2.5;
+    flex-wrap: wrap;
 }
