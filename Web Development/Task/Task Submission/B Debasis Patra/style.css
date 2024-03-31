@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(143, 245, 34);
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 20;
     padding: 0;
 }
@@ -36,6 +38,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic bold;
     text-align: left;
+
 }
 
 .images img {
