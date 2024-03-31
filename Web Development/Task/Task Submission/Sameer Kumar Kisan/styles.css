@@ -69,7 +69,7 @@ margin-right: 5%;
 vertical-align: top;
 background-color: rgba(238, 224, 30, 0.438);
 }
-img{
+.profile{
   width: 200px;
   height: 200px;
   border-radius: 100px;
@@ -109,4 +109,22 @@ img{
 .contacts{
   background-color:rgba(219, 133, 162, 0.726);
   padding-top: 10px;
+}
+.img{
+  margin: 1%;
+  padding-left: 24px;
+  background-color: rgba(238, 224, 30, 0.438);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 8px;
+}
+img{
+  width: 300px;
+  height: 225px; 
+  object-fit: cover;
+  border-radius: 8px;
 }
