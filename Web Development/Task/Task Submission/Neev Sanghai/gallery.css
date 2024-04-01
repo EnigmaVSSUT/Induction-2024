@@ -1,0 +1,21 @@
+p {
+    color:antiquewhite;
+    font-size: 50px;
+    
+}
+h1 {
+    color:antiquewhite;
+    font-size: 50px;
+    text-shadow: 2px 2px lavender;
+}
+img {
+    border-radius: 30%;
+}
+a {
+    position:relative;
+    left: -1200px;
+    bottom: -325px;
+    font-size: 35px;
+    color:darkcyan
+    
+}
