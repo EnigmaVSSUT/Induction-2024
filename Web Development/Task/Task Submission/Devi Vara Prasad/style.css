@@ -1,0 +1,103 @@
+* {
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:sans-serif;
+    color: aliceblue;
+
+}
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),  url(pexels-pixabay-531880.jpg);
+    background-size: cover;
+    
+}
+.intro  {
+    height: 250px;
+    width: 500px;
+    background-color: grey;
+    color: white;
+    font-size: large;
+    text-align: start;
+    border-radius: 5px;
+    position: absolute;
+}
+.photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url("IMG-20230909-WA0002.jpg");
+    background-size: cover;
+    position: relative;
+    left: 700px;
+    bottom: 100px;
+}
+.front {
+    position: relative;
+    font-family: Impact;
+    color: rgb(127, 127, 241);
+    font-size: 30px;
+    left: 800px;
+    bottom: 80px;
+}
+.gallery {
+    text-align: center;
+    font-family: Impact;
+    color: rgb(248, 82, 6);
+    font-size: 30px;
+}
+.Scenery {
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.interest {
+    height: 150px;
+    width: 500px;
+    background-color: grey;
+    color: white;
+    font-size: large;
+    text-align: start;
+    border-radius: 5px;
+    position: absolute;
+}
+.study {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    color: white;
+    font-size: large;
+    text-align: start;
+    border-radius: 5px;
+    position: absolute;
+    left: 800px;
+    bottom: -450px;
+}
+.Qual {
+    position: relative;
+    left: 800px;
+    bottom: 40px;
+}
+.contact {
+    text-align: center;
+    font-family: Impact;
+    color: rgb(248, 82, 6);
+    font-size: 30px;
+    position: relative;
+    bottom: -150px;
+}
+hr {
+    position: relative;
+    bottom: -130px;
+    border-top: 10px black;
+}
+.last {
+    
+    position: relative;
+    bottom: -130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
