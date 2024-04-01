@@ -46,24 +46,22 @@ body{
   .images{
     height: 350px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     
   }
   
-  .images>img{
-    height: 300px;
-    border-radius: 5%;
-    position: relative;
-    animation-name: example;
-    animation-duration: 10s;
+  
+  #pic2 img{
+    height: 350px;
+    display:flex;
+    justify-content: space-evenly;
+  }#pic3 img{
+    height: 350px;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  
 
-  }
-  .about-div{
-    padding: 25px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
 
   
   
