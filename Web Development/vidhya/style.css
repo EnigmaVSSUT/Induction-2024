@@ -10,13 +10,6 @@ header {
     width: 100%;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding: 0 3rem;
-}
 
 nav ul {
     display: flex;
