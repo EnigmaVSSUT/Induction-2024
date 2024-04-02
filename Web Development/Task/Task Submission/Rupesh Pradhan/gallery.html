@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <a href=""></a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            font-family: "Poppins", sans-serif;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* For horizontaliy center , Inside the selector*/
+            height: 55px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.1rem;
+            text-decoration-line: underline;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .gall {
+            color: rgb(171, 81, 255);
+            font-size: 29px;
+            text-align: center;
+            margin: 46px 0;
+
+        }
+
+        .secondsection {
+
+            display: flex;
+            justify-content: space-around;
+            max-width: 100vw;
+            margin: 20px 51px;
+
+
+        }
+
+        .secondsection img {
+            width: 80%;
+            height: 90%;
+        }
+
+        @media screen and (max-width: 600px) {
+
+header nav {
+
+    height: 150px;
+    flex-direction: column;
+
+}
+
+header nav ul {
+    flex-direction: column;
+
+}
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rupesh's Portfolio </div>
+            <div class="right">
+                <ul>
+                    <li class="navi"><a href="index.html">Home</a></li>
+                    <li class="navi"><a href="about.html">About</a></li>
+                    <li class="navi"><a href="gallery.html">Gallery</a></li>
+                    <li class="navi"><a href="contect.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="gall"><b>Gallery</b></div>
+    <section class="secondsection">
+
+        <div class="1stsection">
+            <img src="Images/marioclub.jpeg" alt="Portfolio Pic">
+
+        </div>
+        <div class="2ndsection">
+            <img src="Images/web.jpeg" alt="Portfolio Pic">
+
+        </div>
+        <div class="3rdsection">
+            <img src="Images/portfolio.jpeg" alt="Portfolio Pic">
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
