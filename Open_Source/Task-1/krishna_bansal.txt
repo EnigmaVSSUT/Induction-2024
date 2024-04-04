@@ -1,0 +1,6 @@
+name : krishna bansal
+roll no : 2302090006
+branch : mechanical engineering
+hobby : playing guitar and learning about new techs
+primary domain : cyber security
+secondary domain : game development

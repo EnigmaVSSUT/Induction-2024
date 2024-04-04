@@ -1,0 +1,137 @@
+body {
+    background-image: url("background.webp");
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ header img{
+    width: 400px;
+ }
+#Heading {
+    color: rgb(222, 70, 220);
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 4vw;
+}
+
+h2 {
+    color: rgb(177, 78, 7);
+    font-family: cursive;
+    font-size: 48px;
+}
+
+h3 {
+    color: rgb(13, 70, 28);
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#flex-container img{
+    max-width: 300px;
+}
+#abtme {
+    font-size: 2.5vw;
+    font-weight: 600;
+    font-family: Cambria;
+    font-style: italic bold;
+    border: 2px solid rgb(53, 37, 180);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(243, 187, 211);
+}
+
+#image {
+    background-image: url("mypic2.webp");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#gallery {
+    text-align: center;
+    color: rgb(125, 57, 189);
+    font-size: 40px;
+}
+
+#interesth {
+    text-align: center;
+}
+
+#interest-qual {
+    display: flex;
+    justify-content: space-around;
+}
+
+#interests {
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: Cambria;
+    font-style: italic bold;
+    border: 2px solid rgb(209, 65, 75);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(133, 224, 242);
+}
+
+#qhd {
+    text-align: center;
+}
+
+table {
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: 900;
+    color: rgb(239, 150, 150);
+}
+
+.sec {
+    text-align: right;
+}
+
+#contact {
+    background-color: rgb(214, 241, 171);
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(152, 12, 134);
+}
+
+#info-bar {
+    font-size: 4vw;
+    text-align: center;
+}
+
+
+@media screen and (max-width:800px) {
+    #flex-container{
+      
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #flex-container img{
+        margin-top: 5%;
+        
+    }
+    #interest-qual{
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+    }
+    header img {
+        width:350px;
+    }
+    #interests {
+        margin-left: 1%;
+    }
+}
