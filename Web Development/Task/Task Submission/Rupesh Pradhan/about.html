@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <a href=""></a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* For horizontaliy center , Inside the selector*/
+            height: 55px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.1rem;
+            text-decoration-line: underline;
+
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 47px 0;
+        }
+
+        .leftsection {
+            width: 30%;
+            font-size: 2.5rem;
+
+        }
+
+        .purple {
+            color: rgb(171, 81, 255);
+        }
+
+        .about {
+            font-size: 1.5rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+            border-radius: 123px;
+
+        }
+
+        .rightsection p {
+            font-size: 2rem;
+            margin-left: 114px;
+            line-height: 2.4rem;
+            margin-top: 7px;
+        }
+
+
+
+        .thirdsection {
+            display: flex;
+            justify-content: space-around;
+            max-width: 100vw;
+            margin: auto;
+
+
+        }
+
+        #bold {
+            font-size: 2.5rem;
+            margin-bottom: 27px;
+        }
+
+        .section1 {
+            margin-bottom: 30px;
+            font-size: 2rem;
+            width: 35%;
+            font-size: 1.5rem;
+        }
+
+
+        .sec2diff {
+            display: flex;
+            justify-content: space-between;
+            gap: 90px;
+            line-height: 4rem;
+            font-size: 2rem;
+            margin: 22px 0;
+        }
+
+        .section2 {
+            margin: 0 20px;
+        }
+
+        .section2 b {
+            font-size: 2.5rem;
+        }
+
+
+        .column2 {
+            text-align: right;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            header nav {
+
+                height: 150px;
+                flex-direction: column;
+
+            }
+
+            header nav ul {
+                flex-direction: column;
+
+            }
+
+
+
+
+            .leftSection {
+                font-size: 10px;
+            }
+
+
+            .firstsection {
+                display: flex;
+                justify-content: space-around;
+                margin: 47px 0;
+                flex-direction: column;
+                margin: 0 20px;
+            }
+
+            .leftsection {
+                width: 95%;
+                font-size: 20px;
+
+            }
+
+            .purple {
+                color: rgb(171, 81, 255);
+            }
+
+            .about {
+                font-size: 10px;
+            }
+
+            .rightsection img {
+                width: 50%;
+                border-radius: 128px;
+                margin: 20px 77px;
+
+            }
+
+            .rightsection p {
+                font-size: 20px;
+
+                line-height: 25px;
+                margin: 0 100px;
+                margin-top: -10px;
+            }
+
+            .thirdsection {
+               
+                flex-direction: column;
+                margin: 0 20px;
+
+            }
+
+            #bold {
+                font-size: 15px;
+                margin: 10px 0;
+            }
+
+            .section1 {
+                margin-bottom: 30px;
+                width: 95%;
+                font-size: 10px;
+            }
+
+
+            .sec2diff {
+                line-height: 30px;
+                font-size: 15px;
+                margin: 22px 0;
+            }
+
+            .section2 {
+                margin: -12px 0;
+            }
+
+            .section2 b {
+                font-size: 15px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rupesh's Portfolio </div>
+            <div class="right">
+                <ul>
+                    <li class="navi"><a href="index.html">Home</a></li>
+                    <li class="navi"><a href="about.html">About</a></li>
+                    <li class="navi"><a href="gallery.html">Gallery</a></li>
+                    <li class="navi"><a href="contect.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, I'm <br><b><span class="purple">Rupesh Pradhan</span></b>
+                <div>About Me!</div>
+                <p class="about">
+                    I am from Jamshedpur, Jharkhand. Currently I am pursuing my Bachelor of Technology Degree in the
+                    branch of Computer Science and Engineering from Veer Surendra Sai University of Technology, burla.
+                    Formerly known as University college of Engineering, burla. My hobbies are playing cricket and
+                    reading articles. My aim is to become a Full Stack Web developer.
+
+                </p>
+            </div>
+
+            <div class="rightsection">
+                <img src="Images/RP.png" alt="Portfolio Pic">
+                <p class="dev">Frontend<br>
+                    <b class="purple">Developer</b>
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <section class="thirdsection">
+        <div class="section1">
+            <div id="bold"><b>My Intersts!</b></div>
+            <p><b>Codeing:</b> Currently learning the basics of programing and software development. Excited to explore
+                the
+                wolrld of coding and develop new skills.</p>
+            <p> <b>Video Editing:</b> Currently honing skils in video editing through self-paced learning and online
+                tutorial.
+            </p>
+            <p> <b>Gaming:</b> Enthusiastic player of mobile strategy games, particularly Clash of Clans.</p>
+            <p> <b>Watching Stand-Up Comedy: </b>Enjoing the wit and humor of stand-up comedians from various
+                backgrounds.</p>
+
+        </div>
+        <div class="section2">
+            <b>Qualifications:</b>
+            <div class="sec2diff">
+                <div class="column1">
+                    <p>2020</p>
+                    <p>2022</p>
+                    <p>2024</p>
+                </div>
+                <div class="column2">
+                    <p>Matriculation</p>
+                    <p>Intermideate</p>
+                    <p>Undergrad</p>
+                </div>
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>
