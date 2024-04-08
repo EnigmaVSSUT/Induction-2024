@@ -1,0 +1,176 @@
+*{
+    margin:2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.mainbox{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.subbox{
+    height:180vh;
+    width:75%;
+    border: 5px solid rgb(1, 1, 1);
+    background-color: beige;
+}
+.subbox1{
+    height:70vh;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+#head1{
+    margin-top: 0.4rem;
+}
+.intro{
+    margin-top: 3rem;
+    width:75vh;
+    margin-left: 2.4rem;
+}
+.photo{
+    height:60vh;
+    width:42vh;
+    margin-right: 3.2rem;
+    margin-top: 3.5rem;
+}
+#pic{
+    height: 80%;
+    width:93%
+}
+#me{
+    height:100%;
+    width:98%
+    
+}
+#bold{
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color:rgb(27, 218, 145)
+}
+#picsec{
+    text-align: center;
+    font-size: x-large;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.pic1{
+    height:40vh;
+    
+    width:30%;
+    border-radius: 1rem;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+    height:40vh;
+}
+.interest{
+    width:50%;
+    height:40%;
+    
+}
+.qualification{
+    
+    width:50%;
+    height: 40%;
+}
+#qual{
+    text-align: center;
+    color:coral
+}
+#int{
+    text-align: center;
+    color: coral;
+}
+.data{
+    font-size:larger;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+#re{
+    margin-top: 2rem;
+}
+.blank{
+    width:80%;
+    background-color: black;
+    height:0.2%;
+    margin-left: 6rem;
+}
+#contact{
+    text-align: center;
+    margin-top: 1rem;
+    color: cadetblue;
+    font-size: x-large;
+}
+.foot{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.2rem;
+}
+@media screen and (max-width: 600px)
+{
+    .subbox{
+        width: 95%;
+        height:320vh;
+    }
+    .intro{
+        width:60vh;
+    }
+
+    .subbox1{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .photo{
+        height:30vh;
+        width:25vh;
+        margin-left: 6rem;
+    }
+    #bold{
+        font-size: large;
+    }
+    #picsec{
+        margin-top: 9.5rem;
+    }
+    .photos{
+        display:flex;
+        flex-flow: column wrap;
+        justify-content:center;
+        align-content: center;
+    }
+    .pic1{
+        width:50vh;
+    }
+    .bottom{
+        display:flex;
+        flex-flow:column wrap;
+        height:70vh;
+    }
+    .interest{
+        width:100%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .qualification{
+        text-align: center;
+        margin-top:1.5rem;
+    }
+    #qual{
+        text-align: center;
+        position: relative;
+        left:9rem;
+    }
+    .blank{
+        width:65%;
+    }
+}

@@ -1,0 +1,145 @@
+body{
+    background-color:white;
+}
+
+
+
+#name{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ #name img{
+    width: 400px;
+    height: 400px;
+ }
+
+
+#name p{
+   
+    
+    color: rgb(226, 17, 52);
+    font-family: fantasy;
+    font-size: 31px;
+    
+}
+#name h1{
+    position:relative;
+    left:51px;
+    color: brown;
+    font-style: oblique;
+    font-family: 'Gill Sans';
+    font-size: 31px;
+    padding:0px;
+    margin: 3px;
+}
+#intro p{
+    
+    left:51px;
+    height: 221px;
+    width:391px;
+    position: left;
+    font-family: 'Cambria';
+    font-size:20px;
+    font-style:inherit;
+    color:rgb(205, 90, 18);
+    padding: 3px;
+}
+#intro h2{
+    position:relative;
+    left:31px;
+    color:cornflowerblue;
+    font-size: 29px;
+    text-decoration: underline;
+}
+
+
+#interest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#interest h2{
+ 
+   
+    font-family: Impact;
+    color: black;
+    font-size: 31px;
+    font-weight: 400;
+    font-style: oblique;
+}
+#interest p{
+   
+    font-family:Georgia;
+    color:purple;
+    font-size: 20px;
+   
+    width:391px;
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#flex-container img{
+    max-width: 300px;
+    max-height: 350px;
+}
+
+
+
+#intro span{
+    font-size: 45px;
+ 
+    color:rgb(215, 85, 15)
+}
+
+
+h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    color: brown;
+}
+#contact {
+    
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 20, 20);
+}
+
+#contact-bar {
+    font-size: 20px;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+
+
+@media screen and (max-width:800px) {
+    #flex-container{
+      
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #flex-container img{
+        margin-top: 5%;
+        margin-left: 20%;
+        
+    }
+    #interest{
+        flex-direction: column;
+    }
+
+    #name {
+        flex-direction: column;
+    }
+    #name img {
+        width:350px;
+      
+        margin-left: 5%;
+    }
+    
+}

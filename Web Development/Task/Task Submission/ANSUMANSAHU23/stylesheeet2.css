@@ -1,0 +1,31 @@
+header {
+    color: blue;
+    text-align: center;
+    text-decoration: dotted;
+    background-color: red;
+}
+#Aboutme {
+    color: blue;
+    text-align: left;
+    
+}
+h2 {
+    color:blue;
+    background-color: yellow;
+}
+#interest {
+    color: blue;
+    font-size: medium;
+}
+#quali {
+    color: blue;
+    font-size: medium;
+}
+footer {
+    color: crimson;
+    font-size: medium;
+}
+body {
+    background-color: cyan;
+    
+}

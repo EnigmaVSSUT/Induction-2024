@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to left, rgb(17, 214, 198),white, rgb(17, 214, 198));
+ box-sizing: border-box;
+
+}
+.heading1{
+  text-align: center;
+  font-family:cursive;
+}
+#pratyush{
+  color: rgb(47, 220, 32);
+}
+#about-imgtxt{
+  width: 550px;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+}
+#about-imgtxt>img{
+  border-radius: 50%;
+  height: 250px;
+  /* width: 150px; */
+}
+.heading-5{
+    display: inline;
+    font-size: 22px;
+    position: absolute;
+    /* rotate: -45deg; */
+    top: 132px;
+    opacity: 0.3;
+}
+.heading-5a{
+  right: -91px;
+}
+.heading-5b{
+  rotate: 27 deg;
+  /* right: 0; */
+  top: 39%;
+  right: 4px;
+  
+}
+.heading-5c{
+  /* rotate: 175 deg; */
+  top: 3px;
+  left: 0;
+  /* transform: rotate(-48deg); */
+  
+}
+.heading-5d{
+  rotate: 98 deg;
+  bottom: 0px;
+  left: -90px;
+  
+}
+.heading-5e{
+  /* rotate: 27 deg; */
+  /* top: 0; */
+  top: 0;
+  right: -55px;
+  
+}
