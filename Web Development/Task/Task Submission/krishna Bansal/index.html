@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <h1 class="logo">My Portfolio</h1>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#interest">Interest</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>ABOUT ME</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="profile_photo.jpeg" alt="Profile Photo">
+                </div>
+                <div class="profile-details">
+                    <h3>I'm</h3>
+                    <h3>Krishna Bansal</h3>
+                    <p>First Year Undergraduate | BTech Mechanical Engineering</p>
+                    <p>Veer Surendra Sai University of Technology, Burla</p>
+                    <p>Passionate about coding and cybersecurity</p>
+                    <p>Aspiring to make a positive impact in the cybersecurity domain</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>GALLERY</h2>
+            <div class="gallery-images">
+                <img src="photo1.jpg" alt="Photo 1" class="gallery-item">
+                <img src="photo2.jpg" alt="Photo 2" class="gallery-item">
+                <img src="photo3.jpg" alt="Photo 3" class="gallery-item">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="interest" class="section">
+        <div class="container">
+            <h2>INTEREST</h2>
+            <div class="interest-content">
+                <p>Welcome to my website! I'm a passionate coder who finds joy in unraveling the mysteries of technology. When I'm not typing away lines of code, you'll often find me strumming my guitar, lost in the melodies of the moment. I'm always on the lookout for the latest advancements in technology, eager to dive deep into the realms of innovation. Traveling solo is my way of discovering new cultures and broadening my perspectives. Through my journey, I aim to blend the art of coding with the rhythm of life, creating harmonious experiences that resonate with both the digital and real worlds.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="qualification" class="section">
+        <div class="container">
+            <h2>QUALIFICATION</h2>
+            <div class="qualification-content">
+                <h3>Education:</h3>
+                <ul>
+                    <li>2021: Matriculation</li>
+                    <li>2023: Intermediate</li>
+                    <li>2023-2027: BTech in Mechanical Engineering - Veer Surendra Sai University of Technology, Burla</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <div class="container">
+            <div class="contact-info">
+                <p>Contact me: <a href="mailto:krishnabansal1217@gmail.com">krishnabansal1217@gmail.com</a></p>| Phone: +1234567890</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/__krishna_bansal__" target="_blank">
+                    <img src="insta.jpg" alt="Instagram">
+                </a>
+                <a href="https://discord.gg/EySbEkx6" target="_blank">
+                    <img src="discord-icon.svg" alt="Discord">
+                </a>
+                <a href="https://www.snapchat.com/add/krishna_202500" target="_blank">
+                    <img src="snapc.svg" alt="Snapchat">
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        galleryItems.forEach(item => {
+            item.addEventListener('mouseover', () => {
+                item.style.transform = 'scale(1.1)';
+                item.style.transition = 'transform 0.3s ease';
+            });
+
+            item.addEventListener('mouseout', () => {
+                item.style.transform = 'scale(1)';
+            });
+        });
+
+        const profilePhoto = document.querySelector('.profile-image img');
+
+        profilePhoto.addEventListener('mouseover', () => {
+            profilePhoto.style.transform = 'scale(1.1)';
+            profilePhoto.style.transition = 'transform 0.3s ease';
+        });
+
+        profilePhoto.addEventListener('mouseout', () => {
+            profilePhoto.style.transform = 'scale(1)';
+        });
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navigation = document.querySelector('.navigation');
+
+            menuToggle.classList.toggle('open');
+            navigation.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
