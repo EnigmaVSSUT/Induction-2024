@@ -1,0 +1,71 @@
+body{
+    background-color:#d2ffc4;   
+   }
+   .first-section-left > h1>#monalisa{
+       color:#0b9021;
+       font-weight: bold;
+   }
+   .first-section{
+      display:flex;
+      align-items:center;
+      justify-content:space-around; 
+      width:100%;
+      height:fit-content;
+      padding: 5px;
+      gap: 5px;
+   }
+   .first-section-right{
+     width: 300px;
+     height: fit-content;
+   }
+   .first-section-right>img{
+       width: 100%;
+   }
+   .first-section-left>p{
+       width:200px;
+   }
+   #heading-2{
+       text-align:center;
+   }
+   
+   
+   .source{
+   width:300px;
+   height:200px;
+   
+   }
+   .gallery-pictures{
+       display:flex;
+       justify-content:space-around;
+       flex-wrap: wrap;
+       gap: 10px;
+   }
+   
+   .last{
+       display:flex;
+       align-items:center;
+       justify-content:space-evenly;
+       text-align: center;
+       margin-top: 15px;
+   }
+   .para1,.para2{
+     width: 50%;
+   
+   }
+   .child1{
+     text-align: center;
+   }
+   .parent{
+     margin: 25px;
+   }
+   .child2{
+       display:flex;
+       align-items:center;
+       justify-content:space-evenly; 
+         
+      
+   }
+   .child2 img{
+       width:30px;
+       height:30px;
+   }
