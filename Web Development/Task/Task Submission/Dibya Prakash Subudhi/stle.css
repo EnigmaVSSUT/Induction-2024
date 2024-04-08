@@ -1,0 +1,506 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("page-bg-1.jpg");
+    background-position: 50%;
+    background-size:cover;
+}
+.container{
+    position: sticky;
+    display: flex;
+    margin-left:60px;
+    margin-top: 100px;
+    height:700px;
+    width:350px;
+    background-color:white;
+    border:1px solid black;
+    border-radius: 20px;
+    border-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    display: inline-block;
+    padding:20px 0px 20px;
+    
+}
+.image-container
+{
+    overflow: hidden;
+    margin: -70px auto 21px;
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    border:2px solid balck;
+    background-color: aqua;
+    background-image: url("Dibya3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    font-weight:500;
+    text-transform: capitalize;
+    font-family:  'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    height: 40px;
+    width:190px;
+    border-radius: 10px;
+    border:1px solid;
+    border-style: none;
+    background-color: #F3F6F6;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    font-weight: 650;
+    margin-top: 4px;
+}
+.bio-link{
+
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:20px ;
+}
+.bio-link li{
+    display: inline-block;
+    height:40px;
+    width:40px;
+    background-color: #F3F6F6;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+li:hover{
+
+    background-color: rgb(240, 90, 115);
+    transition: all 0.3s linear;
+    transform: scale(1.5);
+    color:white;
+  
+}
+
+.contact{
+
+    height:320px;
+    width:303px;
+    background-color: #F3F6F6;
+    border-radius: 16px;
+    margin-left: 30px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.input-box{
+    position:relative;
+    width:100%;
+    height:30px;
+    border-bottom:1px solid gainsboro;
+    margin:30px 0;
+}
+
+.input-box input{
+
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-weight:900;
+    color:#162938;
+    padding: 0 35px 0 5px;
+    cursor: none;
+}
+.input-box .icon{
+
+    position:absolute;
+    right:0px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 40px;
+    cursor:pointer;
+    
+}
+.input-box label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    transform: translateY(-170%);
+    font-size:1em;
+    color:black;
+    font-weight: 700;
+    cursor:pointer;
+    }
+.main2{
+
+    height:1300px;
+    width:800px;
+    background-color: white;
+    position:absolute;
+   top:250px;
+   left:500px;
+   bottom: 20px;
+   border-radius: 16px;
+}
+.container2{
+
+   
+    display: inline-block;
+}
+.title{
+
+    display: flex;
+    position:relative;
+    top:30px;
+    left:50px;
+    font-size: larger;
+    font-family:sans-serif;
+    font-weight:900 ;
+    
+}
+.line
+{
+    position: relative;
+    height: 3px;
+    width:200px;
+    background-color: rgb(255, 101, 127);
+    border-radius: 2px;
+    top:15px;
+    left:30px;
+}
+.spy span{
+    font-size: 16px;
+    font-family:sans-serif;
+    display: block;
+    position: relative;
+    top:50px;
+    left:50px;
+    margin:0px 0px 10px;
+}
+.t1{
+    position: relative;
+    top:80px;
+}
+
+.interest
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.box{
+    margin-bottom: 20px;
+    position: relative;
+    top:100px;
+    height:190px;
+    width:300px;
+    border-radius: 16px;
+    background: #fff4f4;
+}
+.box2
+{
+    background-color: #EEF5FA;
+}
+.box3
+{
+    background-color: #EEF5FA;
+}
+
+.t2{
+        position: relative;
+        top:100px;
+
+}
+.gall{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
+    flex-wrap:wrap;
+  
+}
+.interest .boxg{
+
+    position: relative;
+    top:130px;
+    height:250px;
+    width:250px;
+}
+.m1
+{
+    background-image: url("rishi1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+}
+
+.m2
+{
+    background-image: url("Dibya 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m3
+{
+    background-image: url("new1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+
+.qua
+{   
+    position: relative;
+    top:40px;
+   height: 150px;
+   width: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   
+}
+.qua1 span
+{
+    font-size: 17px;
+    font-family:sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+   position: relative;
+   right:330px;
+   bottom: 30px;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.box1 i{
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.box1 p{
+
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.box1 span{
+    
+    
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    bottom:30px;
+    left:4px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.box2 i{
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.box2 p{
+
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.box2 span{
+    
+    
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    bottom:30px;
+    left:4px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.box3 i{
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.box3 p{
+
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.box3 span{
+    
+    
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    bottom:30px;
+    left:4px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.box4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.box4 i{
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 40px;
+    
+}
+.box4 p{
+
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.box4 span{
+    
+    
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    bottom:30px;
+    left:4px;
+    font-weight: 500;
+    font-size: 12px;
+}
+footer{
+    gap:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    font-size:900;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top:200px;
+}
+footer i{
+    font-size: 22px;
+   
+
+}
+.small
+{
+    width:400px;
+    height:80px;
+    background-color: white;
+    border-radius: 16px;
+    position: absolute;
+    top:100px;
+    right:300px;
+}
+.small-in li{
+    display: inline-block;
+    height:50px;
+    width:60px;
+    background-color: #F3F6F6;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+@media (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px)
+ {
+    .container
+    {
+        position:absolute;
+        top:90px;
+        right:5px;
+        
+        width:100%;
+        
+    }
+    .small{
+
+        position:absolute;
+        top:20px;
+        left:10px;
+        width:100%;
+    }
+    .interest
+    {
+        flex-wrap:nowrap;
+        display: block;
+    }
+    .box
+    {
+        display: relative;
+        left:30px;
+    }
+    .main2
+    {
+       position: absolute;
+       top:900px;
+       left:10px;
+        height:2280px;
+        width:100%;
+        background-color: white;
+        border-radius: 18px;
+       
+    }
+    .qua
+    {
+        position: relative;
+        left:120px;
+    }
+    .spy span
+    {
+        font-size: 7px;
+        font-weight: 800;
+    }
+    .qua1 span
+    {
+        font-size: 7px;
+        font-weight: 800;
+    }
+   .title
+   {
+    position: relative;
+    left:10px;
+   }
+   .box span
+   {
+    font-size: 9px;
+        font-weight: 800;
+   }
+}
+
