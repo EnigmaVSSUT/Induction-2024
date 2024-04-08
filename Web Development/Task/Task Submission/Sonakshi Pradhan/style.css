@@ -1,0 +1,192 @@
+*{
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  text-align: center;
+  color: #090909;
+  width: 100%;
+}
+
+footer{
+  background-color: #f1f1f1;
+  text-align: center;
+  color: #090909;
+  width:100%;
+}
+
+.about-me{
+display:flex;
+justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.1em;
+  margin-top: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  width: calc(33% - 40px);
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.interests {
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-evenly;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.containerg{
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-media li {
+  margin-right: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+img.p1{
+  width: 21em;
+  height: 23em;
+}
+img.p2{
+  width: 30em;
+  height: 25em;
+}
+img.p3{
+  width: 25em;
+  height: 25em;
+}
+img.p4{
+  width: 20em;
+  height: 25em;
+}
+
+.animate-character
+{
+ text-transform: uppercase;
+background-image: linear-gradient(
+  -225deg,
+  #231557 0%,
+  #44107a 29%,
+  #ff1361 67%,
+  #fff800 100%
+);
+background-size: 100px;
+background-clip: border-box;
+background-size: 100% auto;
+color: #fff;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transpa rent;
+display: inline-block;
+    font-size: 25px;
+}
+
+
+@media screen and (min-width: 801px){
+  .containerg img{
+    width: 30%;
+    height: fit-content;
+  }
+  section{
+    width: 40%;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width:800px){
+  p, li{
+    font-size: 0.9em;
+  }
+  .about-me{
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-content:space-; */
+    flex-wrap: wrap;
+  }
+  .about-me img{
+    width: 70%;
+    height: fit-content;
+  }
+  .containerg{
+    display: flex;
+    flex-direction: column;
+  }
+  section{
+    width: 70%;
+    height: 40%;
+  }
+  .containerg img{
+    width: 90%;
+    height: fit-content;
+  }
+  .interests{
+    display: flex;
+    flex-direction: column;
+  }
+  .interests section{
+    width: 90%;
+    height: auto;
+  }
+}
