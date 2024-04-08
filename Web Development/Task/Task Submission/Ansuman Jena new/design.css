@@ -1,0 +1,164 @@
+body{
+    background-color:burlywood;
+}
+.hello{
+    font-size: 35px;
+    color:red;
+    font-weight: bold;
+}
+.name{
+    font-size:40px;
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+}
+.intro{
+    font-size:32px;
+    color:red;
+    font-family: 'Times New Roman';
+}
+.logo{
+    height:61px;
+    width:61px;
+}
+.box{
+    border: 2px solid green;
+    padding: 11px;
+    width: 35em;
+}
+.article{
+    width:fit-content;
+    margin-bottom: 1em;
+    padding: 7px;
+    color:chocolate;
+}
+.parent1{
+    display: flex;
+    width:auto;
+    height:auto;
+    
+}
+.child1
+{
+    flex:1;
+    margin:11px;
+}
+.parent2{
+    display:inline;
+    width:auto;
+    height:auto;
+}
+.child2{
+    flex:1;
+    margin:11px;
+    padding:11px;
+}
+.items{
+    border-radius: 5px;
+    text-align: center;
+    line-height:1.5;
+    font-family: 'Gill Sans';
+    font-weight: 100;
+    padding:21px;
+    align-items:center;
+}
+.items{
+    width:250px;
+    height:300px;
+    border-radius:11px;
+    align-items: space-around;
+    padding: 35px;
+}
+#table1,#table7{
+    flex-basis:50%;
+    flex-grow:2;
+}
+#table3{
+    flex-basis:50%;
+    flex-grow:2;
+    color:crimson;
+    font-family: 'Cambria';
+    font-size:25px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.align{
+    text-align:center;
+    font-size:39px;
+    font-family: 'Times New Roman';
+    font-weight:bold;
+    color:brown;
+    margin:2px;
+}
+.aligned{
+    text-align:center;
+    font-size:31px;
+    font-family: 'Times New Roman';
+    font-weight:bold;
+    color:brown;
+    text-decoration: underline;
+}
+.link{
+    margin:10%;
+}
+.article{
+    font-size:22px;
+    color:chocolate;
+    width:50%;
+}
+.parent{
+    display: flex;
+    width:70%;
+    height:auto;
+    padding:21px;
+    
+}
+.child{
+    flex:2;
+    margin:21px;
+    padding:21px;
+}   
+table{
+    width:100%;
+}
+table .detsils{
+    width:auto;
+    margin-right:0px;
+}  
+.aligns{
+    text-align:left;
+    font-size:31px;
+    font-family: 'Times New Roman';
+    font-weight:bold;
+    color:brown;
+    text-decoration: underline;
+}
+.qal{
+    text-align:right;
+    font-size:31px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight:bold;
+    color:brown;
+
+}
+.container4{
+    display:flex;
+    flex-wrap:wrap;
+}
+#details tr,td{
+    border:1px solid;
+    color:rgb(104, 43, 226);
+    font-size: 25px;
+    padding:9px;
+}
+.line{
+    border-top: 5px solid red;
+}
+.con{
+    text-align:center;
+    font-size:31px;
+    font-family: 'Times New Roman';
+    font-weight:bold;
+    color:brown;
+    text-decoration: underline;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        @media only screen and (max-width:768px)
+        {
+            body{
+                background-color: burlywood;
+            }
+            .hello{
+                font-size: 35px;
+                color:red;
+                font-weight: bold;
+            }
+            .name{
+                font-size:40px;
+                color: red;
+                font-style: italic;
+                font-weight: 500;
+            }
+            .intro{
+                font-size:32px;
+                color:red;
+                font-family: 'Times New Roman';
+            }
+            .box{
+                border: 2px solid green;
+                padding:11px;
+                width:20em;
+            }
+            .article{
+                width:fit-content;
+                margin-bottom: 1em;
+                padding: 7px;
+                color:chocolate;
+            }
+            .parent1{
+                display: inline;
+                width:auto;
+                height:auto;   
+                padding: 9px;
+            }
+            .child1
+            {
+                flex:1;
+                margin:11px;
+                padding: 11px;
+                display: grid;
+                place-item: center;
+            }
+            .parent2{
+                display: inline;
+                width:auto;
+                height:auto;
+            }
+            .child2{
+                flex:1;
+                margin:11px;
+                padding:21px;
+                display: grid;
+                place-item: center;
+                grid-gap:11px;
+            }
+            .items{
+                border-radius: 5px;
+                text-align: center;
+                line-height:1.5;
+                font-family: 'Gill Sans';
+                font-weight: 100;
+                padding:21px;
+                align-items:center;
+            }
+            .items{
+                width:250px;
+                height:300px;
+                border-radius:11px;
+                align-items: space-around;
+                padding: 35px;
+            }
+            #table1,#table7{
+                flex-basis:50%;
+                flex-grow:2;
+            }
+            #table3{
+                flex-basis:50%;
+                flex-grow:2;
+                color:crimson;
+                font-family: 'Cambria';
+                font-size:25px;
+                font-weight: bold;
+                font-style: oblique;
+            }
+            .align{
+                text-align:center;
+                font-size:31px;
+                font-family: 'Times New Roman';
+                font-weight:bold;
+                color:brown;
+                margin:2px;
+            }
+            .align{
+                text-align:center;
+                font-size:21px;
+                font-family: 'Times New Roman';
+                font-weight:bold;
+                color:brown;
+                margin:2px;
+            }
+            .aligned{
+                text-align:center;
+                font-size:31px;
+                font-family: 'Times New Roman';
+                font-weight:bold;
+                color:brown;
+                text-decoration: underline;
+            }
+            .link{
+                margin:10%;
+            }
+            .parent{
+                display: inline;
+                width:70%;
+                height:auto;
+                padding:21px;
+            }
+            .child{
+                flex:2;
+                margin:21px;
+                padding:21px;
+                display: inline;
+            } 
+            table{
+                width:100%;
+            }
+            table .details{
+                width:auto;
+                margin-right:0px;
+            }   
+            .aligns{
+                text-align:left;
+                font-size:31px;
+                font-family: 'Times New Roman';
+                font-weight:bold;
+                color:brown;
+                text-decoration: underline;
+            }
+            .qal{
+                text-align:left;
+                font-size:31px;
+                font-family: 'Franklin Gothic Medium';
+                font-weight:bold;
+                color:brown;
+            }
+            .container4{
+                display:flex;
+                flex-wrap:wrap;
+            }
+            #details tr,td{
+                border:1px solid;
+                color:rgb(104, 43, 226);    
+                font-size: 25px;
+                padding:9px;
+            }
+           .line{
+                border-top: 5px solid red;
+            }
+            .logo{
+                height:41px;
+                width:41px;
+            }
+            .con{
+                text-align:center;
+                font-size:31px;
+                font-family: 'Times New Roman';
+                font-weight:bold;
+                color:brown;
+                text-decoration: underline;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="hello">Hello,I'm</h1>
+    <h1 class="name">Ansuman Jena</h1>
+    <div class="parent1">
+        <div class="child1">
+            <h2 class="intro">About Me!</h2>
+            <div class="box">
+                <p class="article">I am from Rourkela.I am from department of Computer Science and Engineering.Currently I am pursuing my Bachelor's of Technology Degree from Veer Surendra Sai University Of Technology.My aim is to become a AI developer.I am also intersted in Machine Learning.I am also pursuing Web Development.My hobbies is to explore new places and its culture.</p>
+            </div>
+        </div>
+        <div class="child1">
+            <image class="image" src="Dp.jpg" height="301px" width="321px" alt="user image">
+            <h2 class="align">Frontend Developer</h2></image>
+        </div>
+    </div>
+    <div class="parent2">
+        <div class="child2">
+            <h2 class="aligns" id="gal">My Gallery</h2>
+        </div>
+        <div class="child2">
+            <image src="pic3.jpg" width="251px" height="301px"></image>
+            <image src="pic1.jpg" width="251px" height="301px"></image>
+            <image src="pic2.jpg" width="251px" height="301px"></image>
+        </div>
+    </div>
+    <div class="parent" id="contain3">
+        <div class="child" id="table7">
+            <h2 class="aligns">My Interests!</h2><br/>
+            <div class="box">
+                <p class="article">I am interested in AI.I am seeking to become a AI developer.I am also interested in Machine Learning and robotics.I want to implement AI in robotics and in day to day usage machines.I am also intersted in travelling new places and explore it's culture.</p>
+            </div>
+        </div>
+        <div class="child" id="contain4">
+            <h2 class="qal">Qualifications:</h2><br/>
+            <table id="details">
+                <tr>
+                    <td>2021</td>
+                    <td>Matriculation</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>Btech:- Ongoing</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr class="line">
+        <h2 class="con">Contact Me!</h2>
+        <div class="container5" id="contain5">
+             <a class="link" href="https://www.linkedin.com/in/ansuman-jenaaj/"><image class="logo" src="linkd1.png" alt="logo"></image></a>
+             <a class="link" href="https://www.instagram.com/ansuman._.aj?igsh=MW53ZnUzcWU5cDN1ZQ=="><image class="logo" src="insta.png" alt="logo"></image></a>
+             <a class="link" href="https://ansumanjena996@gmail.com"><image class="logo" src="gmail.png" alt="logo"></image></a>
+        </div>
+    </body>
+</html>
