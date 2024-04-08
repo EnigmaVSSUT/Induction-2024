@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.first-section{
+  display: flex;
+  height: max-content;
+  width: 100%;
+  padding: 50px;
+}
+.first-text-section{
+  width: 50%;
+  font-family:'Times New Roman';
+}
+.first-text-section>h1{
+  font-size: 69px;
+}
+.first-text-section>h2{
+  font-size: 55px;
+  margin-bottom: 0;
+}
+.name-colour{
+  color:rgb(190, 104, 213);
+}
+.image-first-section{
+  width: 50%;
+  margin-left: 20%;
+
+}
+
+.firstimage{
+  height: 450px;
+  border-radius: 40%;
+
+}
+.developer-colour{
+  color:rgb(240, 105, 46);
+
+}
+.second-section-heading{
+  text-align: center;
+  font-family:'Times New Roman';
+}
+.images{
+  height: 350px;
+  display: flex;
+  justify-content: center;
+
+}
+.desc{
+  text-align:center;
+  font-size: large;
+  font-family:'Times New Roman';
+
+}
+.images>img{
+  height: 300px;
+  border-radius: 5%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+
+}
+.about-div{
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+footer{
+  border-top: 3px solid rgb(246, 147, 147);
+  text-align: center;
+  font-family:'Times New Roman';
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+#github img{
+  height:50px;
+
+}
+#linkedin img{
+  height:50px ;
+
+}
+.qualification{
+  text-align: center;
+  font-family:'Times New Roman';
+}
+
+.images{
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.second-section-heading{
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: xx-large;
+
+}
+
+
+.interests{
+border-top: 100px solid rgb(246, 147, 147);
+  text-align: center;
+  font-family:'Times New Roman';
+}
