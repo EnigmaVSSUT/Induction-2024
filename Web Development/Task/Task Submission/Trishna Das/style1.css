@@ -1,0 +1,168 @@
+@media screen and (min-width: 915px) {
+    body{
+        margin:0;
+        padding:0;
+        padding:45px 45px 10px 45px;
+        background-color: #20000f;
+        font-size: 18px;
+        text-align: center;
+        color: aliceblue;
+        
+    }
+    .container{
+        display: flex;
+       justify-items: center;
+        justify-content: space-between;
+        color:aliceblue;
+        /* flex-direction: column; */
+        height:350px;
+        margin:0;
+        font-style: italic;
+    }
+    #heading{
+        font-size: 40px;
+        font-weight: bold;
+        top:100px;
+        border-style: solid;
+        border-color: darksalmon;
+        border-radius: 30px;
+        height:150px;
+        line-height: 60px; 
+    }
+    #block{
+        width:350px;
+        height:250px;
+        
+    }
+    
+    
+    #image1 img {
+        /* width: 300px; 
+        height: 300px;*/
+        width: 250px; 
+        height: 250px;
+        border-radius: 20px;
+    }
+    #image2 img {
+        width: 220px;
+        height: 350px;
+    }
+    #interests{
+        width:450px;
+        height: 350px;
+        margin: auto;
+    
+    }
+    #box{
+        width:300px;
+        height: 300px;
+         
+        background-color: black;
+    }
+    
+    .list{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-bottom: 20px; 
+    }
+    
+    #Logo{
+        width: 30px;
+        height:30px;
+        border-radius: 50px;
+        float: right;
+    }
+    a{
+        display: inline-block;
+        color:aqua;
+    }
+    footer{
+        padding:30px;
+    }
+}
+@media screen and (max-width: 915px) {
+   
+body{
+    margin:0;
+    padding:0;
+    padding:45px 45px 10px 45px;
+    background-color: #20000f;
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+}
+.container{
+    display: block;
+    /* display: flex; */
+    justify-items: center;
+    /* justify-content: space-between; */
+    color:aliceblue;
+    flex-direction: column;
+    height:auto;
+    margin-left:0;
+    font-style: italic;
+}
+#heading{
+    text-align: center;
+    font-size: 40px;
+    /* top:100px; */
+    border-style: solid;
+    border-color: darksalmon;
+    border-radius: 30px;
+    height:150px;
+    line-height: 80px;
+   
+}
+#block{
+    /* width:600px; */
+    width:auto;
+    height:auto;
+ 
+    
+}
+#image1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+#image2 img {
+    width: 220px;
+    height: 350px;
+}
+#interests{
+    width:auto;
+    height: auto;
+    margin: auto;
+
+}
+#box{
+    width:300px;
+    height: 300px;
+     
+    background-color: black;
+}
+
+.list{
+    text-align: center;
+    list-style-type: none; 
+    display: block;
+}
+#Logo{
+	width: 30px;
+    height:30px;
+    border-radius: 50px;
+    float: right;
+}
+a{
+    display: inline-block;
+    color:aqua;
+}
+.contact{
+    text-align: center;
+    margin:0;
+    padding:0;
+    float:bottom;
+}
+}
+    
