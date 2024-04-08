@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Andy Bold;
+    src: url(Andy\ Bold.ttf);
+}
+#contact{
+    text-align: center; 
+    font-family: Andy Bold, 
+    Courier, monospace;
+}
+header{
+    margin: 20px;
+}
+.hello{
+    font-size: 50px;
+    border: 2px solid black;
+    background-color: rgb(90, 211, 90);
+    padding: 5px;
+    border-radius: 20px;
+    font-family: Andy Bold;
+}
+h1{
+    font-size: 50px;
+}
+h2.gallery{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+span.name{
+    color: red;
+}
+p{
+    /*x% of it's original size? perhaps not*/
+    font-size: 150%;
+    font-family: 'Andy Bold';
+}
+.wilson{
+    width: 600px;
+    height: 600px;
+    border: 0px;
+    border-radius: 100%;
+    padding: 100px;
+    transition: all 500ms ease-in-out;
+}
+.inside_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inside_container article{
+    padding: 50px;
+}
+.inside_container1{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery_contents{
+    display: flex;
+    columns: 2;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.before_footer{
+    font-family: Andy Bold;
+}
+.content{
+    position: relative;
+    top: 0px;
+    max-width: 720px;
+    padding: 50px;
+    margin-bottom: 100px;
+    border: 0px;
+    border-radius: 70px;
+    transition: all 500ms ease-in-out;
+}
+.link{
+    font-size: 30px;
+    font-family: Andy Bold;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.container{
+    height: 100vh;
+    background: linear-gradient(45deg,white,rgb(125, 125, 207));
+    background-size: 250% 500%;
+    background-blend-mode: normal;
+}
+.details{
+    display: flex;
+    columns: 2;
+    justify-content: space-evenly;
+}
+.details article{
+    margin: 30px;    
+}
+#bottom{
+    background-color: rgb(129, 118, 192);
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgb(119, 112, 112) inset;
+}
+@media screen and (max-width: 1300px) {
+    .gallery_contents{
+      flex-direction: column;
+    }
+    .content{
+        margin-bottom: 0px;
+        padding: 20px;
+        border-radius: 42px;
+    }
+}
+@media screen and (max-width: 710px){
+    .content{
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 600px){
+    .content{
+        max-width: 450px;
+    }
+    .details{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 450px){
+    .content{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 1300px){
+    #wilson{
+        align-items: center;
+        justify-content: center;
+    }
+    .wilson{
+        padding: 0px;
+        height: 450px;
+        width: 450px;
+    }
+}
+@media screen and (max-width:815px){
+    .inside_container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:515px){
+    .wilson{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+.content:hover{
+    top: -10px;
+}
+.wilson:hover{
+    border-radius: 20%;
+}

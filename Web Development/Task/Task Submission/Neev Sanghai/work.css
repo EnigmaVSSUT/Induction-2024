@@ -1,0 +1,40 @@
+h1 {
+    font-size:4cm;
+    margin: 0%;
+    padding: 0%;
+    font-family:garamond;
+
+
+
+}
+
+
+p {
+    color:aliceblue;
+    font-size: 2cm;
+    font: oblique;
+    font-style: initial;
+    font-family: garamond;
+    line-height: 0px;
+    margin:5%;
+    padding-bottom:0%;
+    
+}
+img {
+    border-radius: 300px;
+    background-position: 100px;
+    position:relative ;
+    max-width: 100%;
+    height: auto;
+    object-fit:cover;
+    
+
+}
+a {
+    position:relative;
+    left: 160px;
+    bottom: 400px;
+    font-size: 35px;
+    color:darkcyan
+    
+}

@@ -1,0 +1,58 @@
+h1{
+    font-size: xx-large;
+}
+h2{
+    color: black;
+    background-color: lightpink;
+}
+.special{
+    color: darkorange;
+    font-weight: bold;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+ .container span{
+     background-color: lightgreen;
+     padding: 3px 8px;
+     font-size: 30px ;
+     border-radius: 5px;
+     font-style: oblique;
+}
+
+ .co-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 30vh;
+    width= 30%;
+ }
+
+ .image {
+    margin: auto 0;
+    width: 200px;
+    height:200px;
+    border-radius: 50% 45% 50% 45%;
+    overflow: hidden;
+    animation: imgFloat 7s ease-in-out infinite;
+ }
+.image img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pic{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+.dev{
+    color: orange;
+}
+   

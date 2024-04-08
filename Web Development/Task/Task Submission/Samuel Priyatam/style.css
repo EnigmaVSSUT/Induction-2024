@@ -1,0 +1,140 @@
+ 
+
+body{
+    text-align: left;
+    padding: 40px;
+    font-family:monospace;
+    font-weight:bolder;
+
+text-align: left;
+padding: 40px;
+background-color: lightpink;
+
+}
+
+#instagram {
+    
+    width: 25px;
+    border-radius: 40px;
+    float: right;
+    margin-right: 5px;
+}
+#linkedin {
+    width: 20px;
+    border-radius: 50px;
+    float: right;
+    margin-right: 10px;
+}
+#git{
+    width: 20px;
+    border-radius: 0px;
+    float: right;
+    margin-right: 5px;
+}
+.links{
+    text-align: center;
+    display: flex;
+    /* position: absolute; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* right: 0; */
+    text-align: center;      
+    text-decoration: none;
+    font-family: sans-serif;
+    
+    
+} 
+
+
+a{
+    text-decoration:dotted;
+    color:brown;
+
+}
+.links img{
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+   
+}
+#instagram{
+    border-radius: 60%;
+}
+
+.About-me{
+    /* font-family:'Times New Roman', Times, serif; */
+    font-size: 25px;
+    h2{
+        background-color:black;
+        color:lightpink;
+        /* width:auto; */
+        /* width :350px; ; */
+        width: fit-content;
+        font-size: 40px;
+        flex-wrap: wrap;
+        display:flex;
+    }
+}
+
+section{
+    background-image: url('background.jpg');
+}
+
+.profile-pic img{
+    width: 200px;
+    right:20;
+    top: 0;
+    margin-right: 20 px;
+    border-radius: 50%;
+    float: right;
+    /* position: absolute; */
+    
+    
+}
+.profile-pic{
+    font-size: 30px;
+    
+    flex-wrap: wrap;
+    h2{
+        background-color: black;
+        color: whitesmoke;
+        width: fit-content;
+    }
+    
+}
+
+.interests{
+    
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 25px;
+}
+
+.gallery img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.gallery{
+    font-size: 30px;
+    h2{
+        background-color: black;
+        color:lightpink;
+        width: 300px;
+    }
+}
+.linkhead{
+    font-size: 30px;
+        text-decoration: dotted;
+        background-color: black;
+        color:lightpink;
+        width: fit-content;
+        text-wrap: wrap;
+        /* text-align: center; */
+        margin-left: auto;
+        margin-right: auto;
+    
+}
+
+    
