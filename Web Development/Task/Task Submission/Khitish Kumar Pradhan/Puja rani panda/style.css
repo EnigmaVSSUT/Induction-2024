@@ -1,0 +1,161 @@
+img_mine
+{
+    float: right;
+    width: 500px;
+    height: 600px;
+    padding: 35px;
+    color: rgb(103,3,50);
+
+}
+p
+{
+    text-align: left;
+    word-spacing: 3px;
+    width: 50%;
+    font-size: 29px;
+    font-family: sans-serif;
+    color: rgb(74, 0, 12);
+    border-width: 5px;
+}
+.font_adj
+{
+    font-family: Arial,"Times new roman";
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(74, 1, 30);
+}
+.font_adj1
+{
+    text-align: right;
+    text-indent: 40%;
+    font-family: Arial,"Times new roman";
+    font-size: 40px;
+    color: rgb(103, 3, 50);
+}
+.colour_font
+{
+    color :rgb(163, 0, 60);
+}
+
+h1
+{
+    font-family: Arial,"Times new roman";
+    font-size: 40px;
+    color:rgb(163, 0, 104);
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    background-color:rgb(239, 201, 228) ;
+
+}
+*{
+box-sizing: border-box;
+border-color: rgb(239, 201, 228);
+}
+.image
+{
+    float:left;
+    width:30%;
+    padding:24px;
+    background-color: rgb(239, 201, 228);
+
+
+}
+.image #pic
+{
+    width: 100%;
+    height: 300px;
+}
+.page_backg
+{
+    background-color: rgb(239, 201, 228);
+    width: 100%;
+    left: 15%;
+    top: 20%;
+}
+h2
+{
+    text-align: left;
+    text-orientation: sideways;
+    font-family: Arial,"Times new roman";
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(103, 3, 20);
+    font-weight: bolder;
+    font-style: normal;
+    background-color:rgb(239, 201, 228) ;
+
+}
+.white
+{
+    color: rgb(239, 201, 228);
+    width: 60%;
+}
+.column
+{
+    columns: 2;
+}
+h3
+{
+    text-align: left;
+    text-orientation: sideways;
+    font-family: Arial,"Times new roman";
+    font-size: 38px;
+    font-weight: 100;
+    font-weight: bolder;
+    font-style:normal;
+    background-color:rgb(239, 201, 228) ;
+
+}
+.domain
+{
+    text-align: left;
+    word-spacing: 2px;
+    width: 90%;
+    height: 70%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(74, 0, 12);
+    background-color:rgb(239, 201, 228) ;
+}
+li
+{
+    list-style-type: none;
+    text-align: left;
+    word-spacing: 2px;
+    width: 90%;
+    height: 60%;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(74, 0, 12);
+    background-color: rgb(239, 201, 228);
+
+}
+.space
+{
+    color: rgb(239, 201, 228);
+    height:30%;
+    width: 70%;
+    font-size: 20px;
+
+}
+hr
+{
+    border-width: 1px;
+    border-color:black;
+}
+h4
+{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial,"Times new roman";
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(74, 0, 12);
+}
+.col
+{
+    columns:4;
+    text-align: center;
+
+}
