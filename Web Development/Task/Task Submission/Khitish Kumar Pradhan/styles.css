@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --body-color: rgb(250, 250, 250);
-  --color-white: rgb(255, 255, 255);
-  --third-color: rgb(192, 166, 49);
+  --body-color: rgb(232, 191, 191);
+  --color-white: rgb(240, 236, 236);
+  --third-color: rgb(73, 17, 45);
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 1;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
@@ -107,7 +107,7 @@ body {
   }
 
   .demo-text {
-    width: 90%; 
+    width: 80%; 
     order: 2;
     justify-content: center;
     align-content: flex-start;
@@ -133,4 +133,4 @@ body {
     margin-top: 10%;
     margin-bottom: 5%;
   }
-}
+}Pictures\Camera Roll\shivangi.jpg.jpg"
